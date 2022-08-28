@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Personagem : MonoBehaviour
+public class Day : MonoBehaviour
 {
     // ANDAR
     public List<Sprite> andarCima;
@@ -25,7 +25,6 @@ public class Personagem : MonoBehaviour
     // INIMIGOS
     public int indiceInimigos = 0;
     public List<GameObject> inimigos;
-    public int mortos = 0;
     public GameObject telaVitoria;
 
     // SPRITES
@@ -60,12 +59,12 @@ public class Personagem : MonoBehaviour
             CalculoInimigo();
         }
     }
-    
+
     void CalculoInimigo()
     {
-        if(indiceInimigos < inimigos.Count)
+        if (indiceInimigos < inimigos.Count)
         {
-            if(inimigos[indiceInimigos] != null)
+            if (inimigos[indiceInimigos] != null)
             {
                 Vector3 minhaPos = transform.position;
                 Vector3 inimigoPos = inimigos[indiceInimigos].transform.position;
@@ -74,10 +73,9 @@ public class Personagem : MonoBehaviour
                 if (distancia < 1.8f)
                 {
                     Destroy(inimigos[indiceInimigos]);
-                    mortos++;
                 }
             }
-            
+
             indiceInimigos++;
         }
     }
@@ -91,7 +89,7 @@ public class Personagem : MonoBehaviour
         {
             indiceAndar++;
             contAndar = 0;
-            if(indiceAndar > elem - 1)
+            if (indiceAndar > elem - 1)
             {
                 indiceAndar = 0;
             }
@@ -102,7 +100,7 @@ public class Personagem : MonoBehaviour
     {
         mostradorDeImagem.sprite = lAtk[indiceAtaque];
         contAtaque++;
-        if(contAtaque > 20)
+        if (contAtaque > 20)
         {
             indiceAtaque++;
             contAtaque = 0;
@@ -157,7 +155,14 @@ public class Personagem : MonoBehaviour
         }
     }
 
-
+    void Vitoria()
+    {
+        if(telaVitoria.active == true)
+        {
+            mostradorDeImagem.sprite = andarBaixo[0];
+            this.GetComponent<Day>().enabled = false;
+        }
+    }
     // Update is called once per frame
     void Update()
     {
@@ -168,16 +173,12 @@ public class Personagem : MonoBehaviour
         else
         {
             Movimento();
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 atacou = true;
                 indiceInimigos = 0;
             }
         }
-
-        if(mortos == inimigos.Count)
-        {
-            telaVitoria.SetActive(true);
-        }
+        Vitoria();
     }
 }

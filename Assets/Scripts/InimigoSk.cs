@@ -228,7 +228,7 @@ public class InimigoSk : MonoBehaviour
     {
         if(vida == 0)
         {
-            heroi.GetComponent<Personagem>().enabled = false;
+            heroi.GetComponent<Day>().enabled = false;
             telaDerrota.SetActive(true);
         }
     }
