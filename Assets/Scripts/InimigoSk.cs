@@ -15,6 +15,7 @@ public class InimigoSk : MonoBehaviour
     // ATAQUE
     public int contAtaque = 0;
     public bool atacar = false;
+    public bool pausa = false;
     public int indiceAtaque = 0;
     public List<Sprite> atacarCima;
     public List<Sprite> atacarBaixo;
@@ -28,8 +29,11 @@ public class InimigoSk : MonoBehaviour
     public string direcao;
 
     // PERSONAGEM
-    GameObject heroi;
+    GameObject heroiDay;
+    GameObject heroiJess;
+    GameObject heroiPerto;
     public int vida = 3;
+    float distanciaMaior;
 
     // INTELIGÊNCIA
     public int contDirecao = 0;
@@ -38,7 +42,8 @@ public class InimigoSk : MonoBehaviour
     void Start()
     {
 
-        heroi = GameObject.FindGameObjectWithTag("Player");
+        heroiDay = GameObject.FindGameObjectWithTag("PlayerD");
+        heroiJess = GameObject.FindGameObjectWithTag("PlayerJ");
         direcao = "direita";
         mostradorDeImagem = GetComponent<SpriteRenderer>();
         
@@ -46,13 +51,40 @@ public class InimigoSk : MonoBehaviour
 
     private void Update()
     {
-        float distancia = Vector3.Distance(transform.position, heroi.transform.position);
-        if (distancia < 5 && atacar == false)
+        float distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
+        float distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
+        distanciaMaior = distanciaD;
+        heroiPerto = heroiDay;
+        /**
+        if(distanciaD > distanciaJ)
         {
-            Perseguir();
-            if(distancia < 2)
+            distanciaMaior = distanciaD;
+            heroiPerto = heroiDay;
+        }
+        else
+        {
+            distanciaMaior = distanciaJ;
+            heroiPerto = heroiJess;
+        }**/
+
+        if (distanciaMaior < 5 && atacar == false)
+        {
+            if (pausa)
+            {
+                contPausa++;
+                if (contPausa > 340)
+                {
+                    pausa = false;
+                    contPausa = 0;
+                }
+            }
+            else if (distanciaMaior < 2 && pausa == false)
             {
                 atacar = true;
+            }
+            else
+            {
+                Perseguir();
             }
         }
         else if (atacar)
@@ -64,7 +96,7 @@ public class InimigoSk : MonoBehaviour
             Movimento();
             InteligenciaRandomizado();
         }
-        Vivo();
+        HeroiVivo();
     }
     float SubPositivo(float n1, float n2)
     {
@@ -79,8 +111,8 @@ public class InimigoSk : MonoBehaviour
     }
     void Perseguir()
     {
-        float xH = heroi.transform.position.x;
-        float yH = heroi.transform.position.y;
+        float xH = heroiPerto.transform.position.x;
+        float yH = heroiPerto.transform.position.y;
         float xI = transform.position.x;
         float yI = transform.position.y;
 
@@ -119,21 +151,21 @@ public class InimigoSk : MonoBehaviour
         }
 
         // ANDAR CIMA
-        if (direcao == "cima")
+        else if (direcao == "cima")
         {
             transform.position = new Vector3(transform.position.x, transform.position.y + 0.007f, transform.position.z);
             AnimacaoAndar(andarCima);
         }
 
         // ANDAR BAIXO
-        if (direcao == "baixo")
+        else if (direcao == "baixo")
         {
             transform.position = new Vector3(transform.position.x, transform.position.y - 0.007f, transform.position.z);
             AnimacaoAndar(andarBaixo);
         }
 
         // ANDAR DIREITA
-        if (direcao == "direita")
+        else if (direcao == "direita")
         {
             transform.position = new Vector3(transform.position.x + 0.007f, transform.position.y, transform.position.z);
             AnimacaoAndar(andarDireita);
@@ -182,7 +214,7 @@ public class InimigoSk : MonoBehaviour
     void Atacar()
     {
         contPausa++;
-        if(contPausa < 60)
+        if(contPausa < 65)
         {
             if (direcao == "baixo")
             {
@@ -201,9 +233,9 @@ public class InimigoSk : MonoBehaviour
                 AnimacaoAtaque(atacarEsquerda, andarEsquerda);
             }
         }
-        else if(contPausa > 120)
+        else if (contPausa == 66)
         {
-            contPausa = 0;
+            pausa = true;
         }
     }
     void AnimacaoAtaque(List<Sprite> lAtk, List<Sprite> lAnd)
@@ -218,18 +250,27 @@ public class InimigoSk : MonoBehaviour
         if (indiceAtaque >= lAtk.Count)
         {
             atacar = false;
+            pausa = true;
             contAtaque = 0;
             indiceAtaque = 0;
             AnimacaoAndar(lAnd);
             vida -= 1;
         }
     }
-    void Vivo()
+
+    void HeroiVivo()
     {
         if(vida == 0)
         {
-            heroi.GetComponent<Day>().enabled = false;
+            heroiDay.GetComponent<Day>().enabled = false;
+            heroiJess.GetComponent<Jess>().enabled = false;
             telaDerrota.SetActive(true);
+            GameObject[] inimigosVivos = GameObject.FindGameObjectsWithTag("Inimigo");
+
+            foreach (GameObject i in inimigosVivos)
+            {
+                i.GetComponent<InimigoSk>().enabled = false;
+            }
         }
     }
 
