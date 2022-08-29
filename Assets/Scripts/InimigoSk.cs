@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InimigoSk : MonoBehaviour
 {
@@ -32,12 +33,16 @@ public class InimigoSk : MonoBehaviour
     GameObject heroiDay;
     GameObject heroiJess;
     GameObject heroiPerto;
-    public int vida = 3;
+    float distanciaD;
+    float distanciaJ;
     float distanciaMaior;
 
     // INTELIGÊNCIA
     public int contDirecao = 0;
-    
+
+    // VIDA
+    public Text vidaTexto;
+    public int vidaNum;
 
     void Start()
     {
@@ -51,8 +56,8 @@ public class InimigoSk : MonoBehaviour
 
     private void Update()
     {
-        float distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
-        float distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
+        distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
+        distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
         distanciaMaior = distanciaD;
         heroiPerto = heroiDay;
         /**
@@ -96,6 +101,8 @@ public class InimigoSk : MonoBehaviour
             Movimento();
             InteligenciaRandomizado();
         }
+
+
         HeroiVivo();
     }
     float SubPositivo(float n1, float n2)
@@ -254,13 +261,13 @@ public class InimigoSk : MonoBehaviour
             contAtaque = 0;
             indiceAtaque = 0;
             AnimacaoAndar(lAnd);
-            vida -= 1;
+            vidaTexto.text = (int.Parse(vidaTexto.text) - 1).ToString();
         }
     }
 
     void HeroiVivo()
     {
-        if(vida == 0)
+        if(vidaTexto.text == "0")
         {
             heroiDay.GetComponent<Day>().enabled = false;
             heroiJess.GetComponent<Jess>().enabled = false;
