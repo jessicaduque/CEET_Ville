@@ -41,8 +41,8 @@ public class InimigoSk : MonoBehaviour
     public int contDirecao = 0;
 
     // VIDA
-    public Text vidaTexto;
-    public int vidaNum;
+    public Text vidaTextoDay;
+    public Text vidaTextoJess;
 
     void Start()
     {
@@ -263,16 +263,33 @@ public class InimigoSk : MonoBehaviour
             contAtaque = 0;
             indiceAtaque = 0;
             AnimacaoAndar(lAnd);
-            vidaTexto.text = (int.Parse(vidaTexto.text) - 1).ToString();
+            if(heroiPerto == heroiDay)
+            {
+                vidaTextoDay.text = (int.Parse(vidaTextoDay.text) - 1).ToString();
+            }
+            else
+            {
+                vidaTextoJess.text = (int.Parse(vidaTextoJess.text) - 1).ToString();
+            }
+            
         }
     }
 
     void HeroiVivo()
     {
-        if(vidaTexto.text == "0")
+        if(vidaTextoDay.text == "0"|| vidaTextoJess.text == "0")
         {
-            heroiDay.GetComponent<Day>().enabled = false;
-            heroiJess.GetComponent<Jess>().enabled = false;
+            if(vidaTextoDay.text == "0")
+            {
+                heroiJess.GetComponent<Jess>().enabled = false;
+                heroiDay.SetActive(false);
+            }
+            else
+            {
+                heroiDay.GetComponent<Jess>().enabled = false;
+                heroiJess.SetActive(false);
+            }
+            
             telaDerrota.SetActive(true);
             GameObject[] inimigosVivos = GameObject.FindGameObjectsWithTag("Inimigo");
 
