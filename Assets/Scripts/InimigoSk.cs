@@ -35,7 +35,7 @@ public class InimigoSk : MonoBehaviour
     GameObject heroiPerto;
     float distanciaD;
     float distanciaJ;
-    float distanciaMaior;
+    float distanciaMenor;
 
     // INTELIGÊNCIA
     public int contDirecao = 0;
@@ -56,23 +56,8 @@ public class InimigoSk : MonoBehaviour
 
     private void Update()
     {
-        distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
-        distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
-        distanciaMaior = distanciaD;
-        heroiPerto = heroiDay;
-        /**
-        if(distanciaD > distanciaJ)
-        {
-            distanciaMaior = distanciaD;
-            heroiPerto = heroiDay;
-        }
-        else
-        {
-            distanciaMaior = distanciaJ;
-            heroiPerto = heroiJess;
-        }**/
-
-        if (distanciaMaior < 5 && atacar == false)
+        MaisProxima();
+        if (distanciaMenor < 5 && atacar == false)
         {
             if (pausa)
             {
@@ -83,7 +68,7 @@ public class InimigoSk : MonoBehaviour
                     contPausa = 0;
                 }
             }
-            else if (distanciaMaior < 2 && pausa == false)
+            else if (distanciaMenor < 2 && pausa == false)
             {
                 atacar = true;
             }
@@ -104,6 +89,23 @@ public class InimigoSk : MonoBehaviour
 
 
         HeroiVivo();
+    }
+
+    void MaisProxima()
+    {
+        distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
+        distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
+        
+        if(distanciaD < distanciaJ)
+        {
+            distanciaMenor = distanciaD;
+            heroiPerto = heroiDay;
+        }
+        else
+        {
+            distanciaMenor = distanciaJ;
+            heroiPerto = heroiJess;
+        }
     }
     float SubPositivo(float n1, float n2)
     {
