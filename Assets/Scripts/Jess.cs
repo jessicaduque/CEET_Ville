@@ -29,6 +29,10 @@ public class Jess : MonoBehaviour
     public int mortos = 0;
     public int indiceMortos = 0;
 
+    // BOSSES
+    public GameObject boss1;
+    public GameObject boss2;
+
     // SPRITES
     public SpriteRenderer mostradorDeImagem;
 
@@ -167,7 +171,7 @@ public class Jess : MonoBehaviour
             }
             if(mortos == inimigos.Count)
             {
-                Vitoria();
+                Boss();
             }
             indiceMortos++;
         }
@@ -183,6 +187,12 @@ public class Jess : MonoBehaviour
         telaVitoria.SetActive(true);
         mostradorDeImagem.sprite = andarBaixo[0];
         this.GetComponent<Jess>().enabled = false;
+    }
+
+    void Boss()
+    {
+        boss1.SetActive(true);
+        boss2.SetActive(true);
     }
 
     // Update is called once per frame
