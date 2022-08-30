@@ -409,6 +409,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -482,6 +483,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9abedd0f448d541abea917d3b2a7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PontoDay: {fileID: 817047237}
+  PontoJess: {fileID: 1993859344}
 --- !u!1 &539597230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,13 +1726,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464377463}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.8498783, y: -2.8436754, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.847354, y: 6.0768757, z: 0.12087597}
   m_LocalScale: {x: 30, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1896772021}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1464377466
 BoxCollider2D:
@@ -2061,6 +2076,39 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1896772020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896772021}
+  m_Layer: 0
+  m_Name: Bosses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1896772021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896772020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9974759, y: -8.920551, z: -0.12087597}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1949555620}
+  - {fileID: 1464377465}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1949555618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,6 +2120,7 @@ GameObject:
   - component: {fileID: 1949555620}
   - component: {fileID: 1949555619}
   - component: {fileID: 1949555621}
+  - component: {fileID: 1949555622}
   m_Layer: 0
   m_Name: Boss 1
   m_TagString: Untagged
@@ -2138,13 +2187,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949555618}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8854856, y: -14.926008, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.11199021, y: -6.005457, z: 0.12087597}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1896772021}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1949555621
 BoxCollider2D:
@@ -2159,7 +2208,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.006249249, y: 0.021872059}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2170,8 +2219,84 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.25879943, y: 0.35253748}
   m_EdgeRadius: 0
+--- !u!114 &1949555622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949555618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9260a533144eda8469e92c2e9cbbb583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  andarCima:
+  - {fileID: 21300000, guid: cecb87f08f34cf74490aeba8919a8da4, type: 3}
+  - {fileID: 21300000, guid: 6e9f1ac05e864cf42b7f74a4eca7096c, type: 3}
+  - {fileID: 21300000, guid: 47587eb4fb123fd419b4cb5a5d8e50a9, type: 3}
+  - {fileID: 21300000, guid: 9209fd2c7086d2843a2fff162df50dfa, type: 3}
+  - {fileID: 21300000, guid: d14588df84e0785489afa506ac52d1de, type: 3}
+  andarBaixo:
+  - {fileID: 21300000, guid: ac06f87dc2acb8d4ebb7bda0912bdf50, type: 3}
+  - {fileID: 21300000, guid: 308eb9ae75377dc44a3aa2956375ba06, type: 3}
+  - {fileID: 21300000, guid: fd685f74190a1c2469c1130720e338c3, type: 3}
+  - {fileID: 21300000, guid: c89f2d9a55368614686fd165777ce48a, type: 3}
+  - {fileID: 21300000, guid: 37d589271c23ee44b8c3b05e1e642e40, type: 3}
+  andarDireita:
+  - {fileID: 21300000, guid: bba32775bf2996544b950ff9da433af6, type: 3}
+  - {fileID: 21300000, guid: 3b917c9a5e057ce4caac2ba8a7ab6a26, type: 3}
+  - {fileID: 21300000, guid: 82b90588d0d073a428d22f1bf67823e0, type: 3}
+  - {fileID: 21300000, guid: 0cb18a4b9ca311d40b70ee585fd58b64, type: 3}
+  - {fileID: 21300000, guid: 125b38b3c9cde20499b10fc3aa7544c2, type: 3}
+  andarEsquerda:
+  - {fileID: 21300000, guid: 051f9ba6ae5172b43aff54df4425309a, type: 3}
+  - {fileID: 21300000, guid: 1fe2fffb20d67da48955dd319f6b63e3, type: 3}
+  - {fileID: 21300000, guid: c85a5452d1922084a9b1274d1691c42e, type: 3}
+  - {fileID: 21300000, guid: 9260bbf9d2b0d55449281c0258358f6b, type: 3}
+  - {fileID: 21300000, guid: 046e64aecb7087c4bacfaa6c80265e41, type: 3}
+  indiceAndar: 0
+  contAndar: 0
+  contAtaque: 0
+  atacar: 0
+  pausa: 0
+  indiceAtaque: 0
+  atacarCima:
+  - {fileID: 21300000, guid: acc86c98ab0d6aa4da81f61f29d3a95d, type: 3}
+  - {fileID: 21300000, guid: 19de789a9c5477d479e85ae84d5a3074, type: 3}
+  - {fileID: 21300000, guid: c3c8bd7daa46fae4bb3360fe7b689546, type: 3}
+  atacarBaixo:
+  - {fileID: 21300000, guid: 87e1343ef0da4c7438bebf17754ee720, type: 3}
+  - {fileID: 21300000, guid: d867e1ec80368a6479c8a156620c123e, type: 3}
+  - {fileID: 21300000, guid: 73438458290a9d34a9209230a55d89fc, type: 3}
+  atacarDireita:
+  - {fileID: 21300000, guid: 758f947d94ee8b040882c4401b9eef18, type: 3}
+  - {fileID: 21300000, guid: c46b779b63b4e5c48841bb5dd15dc5c3, type: 3}
+  - {fileID: 21300000, guid: bd6638bbc5e77a64599134c58dbdfa54, type: 3}
+  atacarEsquerda:
+  - {fileID: 21300000, guid: a24948022ef0f594288bb501e0bdb5a7, type: 3}
+  - {fileID: 21300000, guid: 040334f2fe24e7747b6cf3e0e3e79756, type: 3}
+  - {fileID: 21300000, guid: 1095610794341214a9ab14ca4f28118e, type: 3}
+  contPausa: 0
+  telaDerrota: {fileID: 646662175}
+  mostradorDeImagem: {fileID: 0}
+  direcao: 
+  contDirecao: 0
+  inimigosRandom:
+  - {fileID: 1652335900}
+  - {fileID: 843339362}
+  inimigosRonda:
+  - {fileID: 1393812209}
+  indiceMRandom: 0
+  mortosRandom: 0
+  randomMortos: 0
+  indiceMRonda: 0
+  mortosRonda: 0
+  rondaMortos: 0
+  vidaTextoDay: {fileID: 1988444560}
+  vidaTextoJess: {fileID: 184540011}
 --- !u!1 &1988444558
 GameObject:
   m_ObjectHideFlags: 0
