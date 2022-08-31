@@ -33,8 +33,9 @@ public class InimigoTk : MonoBehaviour
     GameObject heroiDay;
     GameObject heroiJess;
     GameObject heroiPerto;
-    public int vida = 3;
-    float distanciaMaior;
+    float distanciaD;
+    float distanciaJ;
+    float distanciaMenor;
 
     // INTELIGÊNCIA
     public int posMax = 14;
@@ -46,7 +47,6 @@ public class InimigoTk : MonoBehaviour
 
     void Start()
     {
-
         heroiDay = GameObject.FindGameObjectWithTag("PlayerD");
         heroiJess = GameObject.FindGameObjectWithTag("PlayerJ");
         direcao = "direita";
@@ -56,23 +56,8 @@ public class InimigoTk : MonoBehaviour
 
     private void Update()
     {
-        float distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
-        float distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
-        distanciaMaior = distanciaD;
-        heroiPerto = heroiDay;
-        /**
-        if(distanciaD > distanciaJ)
-        {
-            distanciaMaior = distanciaD;
-            heroiPerto = heroiDay;
-        }
-        else
-        {
-            distanciaMaior = distanciaJ;
-            heroiPerto = heroiJess;
-        }**/
-
-        if (distanciaMaior < 2 && atacar == false)
+        MaisProxima();
+        if (distanciaMenor < 1.4f && atacar == false)
         {
             if (pausa)
             {
@@ -98,6 +83,23 @@ public class InimigoTk : MonoBehaviour
             Inteligencia();
         }
         HeroiVivo();
+    }
+
+    void MaisProxima()
+    {
+        distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
+        distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
+
+        if (distanciaD < distanciaJ)
+        {
+            distanciaMenor = distanciaD;
+            heroiPerto = heroiDay;
+        }
+        else
+        {
+            distanciaMenor = distanciaJ;
+            heroiPerto = heroiJess;
+        }
     }
     void Movimento()
     {
@@ -184,7 +186,15 @@ public class InimigoTk : MonoBehaviour
             contAtaque = 0;
             indiceAtaque = 0;
             AnimacaoAndar(lAnd);
-            vida -= 1;
+            if (heroiPerto == heroiDay)
+            {
+                vidaTextoDay.text = (int.Parse(vidaTextoDay.text) - 1).ToString();
+            }
+            else
+            {
+                vidaTextoJess.text = (int.Parse(vidaTextoJess.text) - 1).ToString();
+            }
+
         }
     }
     void HeroiVivo()

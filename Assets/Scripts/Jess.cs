@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Jess : MonoBehaviour
 {
@@ -32,6 +33,10 @@ public class Jess : MonoBehaviour
     // BOSSES
     public GameObject boss1;
     public GameObject boss2;
+    public Text nomeBoss1;
+    public Text nomeBoss2;
+    public List<Image> vidaBoss1;
+    public List<Image> vidaBoss2;
 
     // SPRITES
     public SpriteRenderer mostradorDeImagem;
@@ -195,6 +200,10 @@ public class Jess : MonoBehaviour
     {
         boss1.SetActive(true);
         boss2.SetActive(true);
+        //vidaBoss1.setActive(true);
+        //vidaBoss2.setActive(true);
+        nomeBoss1.gameObject.SetActive(true); 
+        nomeBoss2.gameObject.SetActive(true);
     }
 
     // Update is called once per frame

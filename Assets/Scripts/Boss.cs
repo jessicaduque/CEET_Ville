@@ -58,7 +58,7 @@ public class Boss : MonoBehaviour
     void Update()
     {
         MaisProxima();
-        if (distanciaMenor < 5 && atacar == false)
+        if (distanciaMenor < 8 && atacar == false)
         {
             if (pausa)
             {
