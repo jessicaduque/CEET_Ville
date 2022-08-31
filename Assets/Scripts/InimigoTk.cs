@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InimigoTk : MonoBehaviour
 {
@@ -39,6 +40,9 @@ public class InimigoTk : MonoBehaviour
     public int posMax = 14;
     public int posMin = 3;
 
+    // VIDA
+    public Text vidaTextoDay;
+    public Text vidaTextoJess;
 
     void Start()
     {
@@ -185,14 +189,32 @@ public class InimigoTk : MonoBehaviour
     }
     void HeroiVivo()
     {
-        if (vida == 0)
+        if (vidaTextoDay.text == "0" || vidaTextoJess.text == "0")
         {
-            heroiDay.GetComponent<Day>().enabled = false;
-            heroiJess.GetComponent<Jess>().enabled = false;
-            telaDerrota.SetActive(true);
-            GameObject[] inimigosVivos = GameObject.FindGameObjectsWithTag("Inimigo");
+            if (vidaTextoDay.text == "0")
+            {
+                heroiJess.GetComponent<Jess>().enabled = false;
+                heroiDay.SetActive(false);
+            }
+            else
+            {
+                heroiDay.GetComponent<Day>().enabled = false;
+                heroiJess.SetActive(false);
+            }
 
-            foreach (GameObject i in inimigosVivos)
+            telaDerrota.SetActive(true);
+
+
+            GameObject[] inimigosVivosSk = GameObject.FindGameObjectsWithTag("InimigoSk");
+
+            foreach (GameObject i in inimigosVivosSk)
+            {
+                i.GetComponent<InimigoSk>().enabled = false;
+            }
+
+            GameObject[] inimigosVivosTk = GameObject.FindGameObjectsWithTag("InimigoTk");
+
+            foreach (GameObject i in inimigosVivosTk)
             {
                 i.GetComponent<InimigoTk>().enabled = false;
             }

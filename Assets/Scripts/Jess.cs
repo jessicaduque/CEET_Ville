@@ -184,9 +184,11 @@ public class Jess : MonoBehaviour
 
     void Vitoria()
     {
-        telaVitoria.SetActive(true);
-        mostradorDeImagem.sprite = andarBaixo[0];
-        this.GetComponent<Jess>().enabled = false;
+        if (telaVitoria.activeSelf == true)
+        {
+            mostradorDeImagem.sprite = andarBaixo[0];
+            this.GetComponent<Jess>().enabled = false;
+        }
     }
 
     void Boss()
@@ -213,5 +215,6 @@ public class Jess : MonoBehaviour
             }
         }
         Mortos();
+        Vitoria();
     }
 }

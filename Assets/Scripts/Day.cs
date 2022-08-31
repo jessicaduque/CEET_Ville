@@ -157,7 +157,7 @@ public class Day : MonoBehaviour
 
     void Vitoria()
     {
-        if(telaVitoria.active == true)
+        if(telaVitoria.activeSelf == true)
         {
             mostradorDeImagem.sprite = andarBaixo[0];
             this.GetComponent<Day>().enabled = false;

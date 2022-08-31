@@ -23,12 +23,22 @@ public class CameraPrincipal : MonoBehaviour
 
         transform.position = new Vector3(P.x, P.y, -10);
         GetComponent<Camera>().orthographicSize = x + 2;
+
+        CamMin();
     }
 
     public Vector3 LerpByDistance(Vector3 A, Vector3 B, float x)
     {
         Vector3 P = x * Vector3.Normalize(B - A) + A;
         return P;
+    }
+
+    void CamMin()
+    {
+        if(GetComponent<Camera>().orthographicSize < 5.5f)
+        {
+            GetComponent<Camera>().orthographicSize = 5.5f;
+        }
     }
 
 }

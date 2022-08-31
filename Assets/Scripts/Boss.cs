@@ -41,16 +41,6 @@ public class Boss : MonoBehaviour
     // INTELIGÊNCIA
     public int contDirecao = 0;
 
-    // A ORGANIZAR
-    public List<GameObject> inimigosRandom;
-    public List<GameObject> inimigosRonda;
-    public int indiceMRandom = 0;
-    public int mortosRandom = 0;
-    public bool randomMortos = false;
-    public int indiceMRonda = 0;
-    public int mortosRonda = 0;
-    public bool rondaMortos = false;
-
     // VIDA
     public Text vidaTextoDay;
     public Text vidaTextoJess;
@@ -62,23 +52,6 @@ public class Boss : MonoBehaviour
         heroiJess = GameObject.FindGameObjectWithTag("PlayerJ");
         direcao = "direita";
         mostradorDeImagem = GetComponent<SpriteRenderer>();
-    }
-
-    void MaisProxima()
-    {
-        distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
-        distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
-
-        if (distanciaD < distanciaJ)
-        {
-            distanciaMenor = distanciaD;
-            heroiPerto = heroiDay;
-        }
-        else
-        {
-            distanciaMenor = distanciaJ;
-            heroiPerto = heroiJess;
-        }
     }
 
     // Update is called once per frame
@@ -117,6 +90,23 @@ public class Boss : MonoBehaviour
 
 
         HeroiVivo();
+    }
+
+    void MaisProxima()
+    {
+        distanciaD = Vector3.Distance(transform.position, heroiDay.transform.position);
+        distanciaJ = Vector3.Distance(transform.position, heroiJess.transform.position);
+
+        if (distanciaD < distanciaJ)
+        {
+            distanciaMenor = distanciaD;
+            heroiPerto = heroiDay;
+        }
+        else
+        {
+            distanciaMenor = distanciaJ;
+            heroiPerto = heroiJess;
+        }
     }
     float SubPositivo(float n1, float n2)
     {
@@ -296,16 +286,17 @@ public class Boss : MonoBehaviour
             }
             else
             {
-                heroiDay.GetComponent<Jess>().enabled = false;
+                heroiDay.GetComponent<Day>().enabled = false;
                 heroiJess.SetActive(false);
             }
 
             telaDerrota.SetActive(true);
-            GameObject[] inimigosVivos = GameObject.FindGameObjectsWithTag("Inimigo");
 
-            foreach (GameObject i in inimigosVivos)
+            GameObject[] bossesVivos = GameObject.FindGameObjectsWithTag("Boss");
+
+            foreach (GameObject i in bossesVivos)
             {
-                i.GetComponent<InimigoSk>().enabled = false;
+                i.GetComponent<Boss>().enabled = false;
             }
         }
     }

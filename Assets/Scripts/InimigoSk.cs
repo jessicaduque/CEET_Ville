@@ -286,16 +286,25 @@ public class InimigoSk : MonoBehaviour
             }
             else
             {
-                heroiDay.GetComponent<Jess>().enabled = false;
+                heroiDay.GetComponent<Day>().enabled = false;
                 heroiJess.SetActive(false);
             }
             
             telaDerrota.SetActive(true);
-            GameObject[] inimigosVivos = GameObject.FindGameObjectsWithTag("Inimigo");
+            
+            
+            GameObject[] inimigosVivosSk = GameObject.FindGameObjectsWithTag("InimigoSk");
 
-            foreach (GameObject i in inimigosVivos)
+            foreach (GameObject i in inimigosVivosSk)
             {
                 i.GetComponent<InimigoSk>().enabled = false;
+            }
+
+            GameObject[] inimigosVivosTk = GameObject.FindGameObjectsWithTag("InimigoTk");
+
+            foreach (GameObject i in inimigosVivosTk)
+            {
+                i.GetComponent<InimigoTk>().enabled = false;
             }
         }
     }
