@@ -279,18 +279,6 @@ public class Boss : MonoBehaviour
 
         }
     }
-
-    GameObject[] FindGameObjectsWithTags(params string[] tags)
-    {
-        var all = new List<GameObject>();
-
-        foreach (string tag in tags)
-        {
-            all.AddRange(GameObject.FindGameObjectsWithTag(tag).ToList());
-        }
-
-        return all.ToArray();
-    }
     void HeroiVivo()
     {
         if (vidaTextoDay.text == "0" || vidaTextoJess.text == "0")
@@ -315,5 +303,16 @@ public class Boss : MonoBehaviour
                 i.GetComponent<Boss>().enabled = false;
             }
         }
+    }
+    GameObject[] FindGameObjectsWithTags(params string[] tags)
+    {
+        var all = new List<GameObject>();
+
+        foreach (string tag in tags)
+        {
+            all.AddRange(GameObject.FindGameObjectsWithTag(tag).ToList());
+        }
+
+        return all.ToArray();
     }
 }

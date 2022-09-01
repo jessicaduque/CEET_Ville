@@ -69,9 +69,15 @@ public class Jess : MonoBehaviour
             {
                 atacou = true;
                 indiceInimigos = 0;
+                indiceBosses = 0;
             }
         }
-        Mortos();
+
+        if(faseBoss == false)
+        {
+            Mortos();
+        }
+        
         Vitoria();
     }
 
@@ -137,7 +143,7 @@ public class Jess : MonoBehaviour
                 Vector3 minhaPos = transform.position;
                 Vector3 bossPos = bosses[indiceBosses].transform.position;
                 float distancia = Vector3.Distance(minhaPos, bossPos);
-                if (distancia < 5)
+                if (distancia < 10)
                 {
                     Debug.Log("decrescer");
                     DecrecerVidaBoss(bosses[indiceBosses]);
