@@ -6,7 +6,9 @@ TagManager:
   tags:
   - PlayerD
   - PlayerJ
-  - Inimigo
+  - InimigoSk
+  - InimigoTk
+  - Boss
   layers:
   - Default
   - TransparentFX

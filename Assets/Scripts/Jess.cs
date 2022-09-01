@@ -31,12 +31,17 @@ public class Jess : MonoBehaviour
     public int indiceMortos = 0;
 
     // BOSSES
+    public bool faseBoss = false;
     public GameObject boss1;
     public GameObject boss2;
     public Text nomeBoss1;
     public Text nomeBoss2;
-    public List<Image> vidaBoss1;
-    public List<Image> vidaBoss2;
+    public List<Image> imagensVidaBoss1;
+    public List<Image> imagensVidaBoss2;
+    public int indiceBosses = 0;
+    public List<GameObject> bosses;
+    public GameObject vidaBoss1;
+    public GameObject vidaBoss2;
 
     // SPRITES
     public SpriteRenderer mostradorDeImagem;
@@ -67,7 +72,16 @@ public class Jess : MonoBehaviour
             {
                 AnimacaoAtaque(atacarEsquerda, andarEsquerda);
             }
-            CalculoInimigo();
+
+
+            if (faseBoss)
+            {
+                CalculoBoss();
+            }
+            else
+            {
+                CalculoInimigo();
+            }
         }
     }
 
@@ -89,6 +103,31 @@ public class Jess : MonoBehaviour
 
             indiceInimigos++;
         }
+    }
+
+    void CalculoBoss()
+    {
+        if (indiceBosses < bosses.Count)
+        {
+            if (bosses[indiceBosses] != null)
+            {
+                Vector3 minhaPos = transform.position;
+                Vector3 bossPos = bosses[indiceBosses].transform.position;
+                float distancia = Vector3.Distance(minhaPos, bossPos);
+                //Debug.Log(distancia);
+                if (distancia < 3)
+                {
+                    DecrecerVidaBoss();
+                }
+            }
+
+            indiceBosses++;
+        }
+    }
+
+    void DecrecerVidaBoss()
+    {
+        Debug.Log("Vida Decrescida");
     }
 
     void AnimacaoAndar(List<Sprite> l)
@@ -198,10 +237,11 @@ public class Jess : MonoBehaviour
 
     void Boss()
     {
+        faseBoss = true;
         boss1.SetActive(true);
         boss2.SetActive(true);
-        //vidaBoss1.setActive(true);
-        //vidaBoss2.setActive(true);
+        vidaBoss1.SetActive(true);
+        vidaBoss2.SetActive(true);
         nomeBoss1.gameObject.SetActive(true); 
         nomeBoss2.gameObject.SetActive(true);
     }
