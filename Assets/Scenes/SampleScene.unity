@@ -2639,7 +2639,7 @@ GameObject:
   - component: {fileID: 1464377467}
   m_Layer: 0
   m_Name: Boss 2
-  m_TagString: Boss
+  m_TagString: Boss2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3309,7 +3309,7 @@ GameObject:
   - component: {fileID: 1949555622}
   m_Layer: 0
   m_Name: Boss 1
-  m_TagString: Boss
+  m_TagString: Boss1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3758,23 +3758,25 @@ MonoBehaviour:
   nomeBoss1: {fileID: 169184625}
   nomeBoss2: {fileID: 1737955716}
   imagensVidaBoss1:
-  - {fileID: 547784209}
-  - {fileID: 1359149234}
-  - {fileID: 2010807763}
-  - {fileID: 677479514}
   - {fileID: 861422000}
+  - {fileID: 677479514}
+  - {fileID: 2010807763}
+  - {fileID: 1359149234}
+  - {fileID: 547784209}
   imagensVidaBoss2:
-  - {fileID: 1379756348}
-  - {fileID: 181340577}
-  - {fileID: 1430999487}
-  - {fileID: 2114680776}
   - {fileID: 1202971433}
+  - {fileID: 2114680776}
+  - {fileID: 1430999487}
+  - {fileID: 181340577}
+  - {fileID: 1379756348}
   indiceBosses: 0
   bosses:
   - {fileID: 1949555618}
   - {fileID: 1464377463}
   vidaBoss1: {fileID: 71402759}
   vidaBoss2: {fileID: 2007859708}
+  indiceVidaBoss1: 0
+  indiceVidaBoss2: 0
   mostradorDeImagem: {fileID: 0}
 --- !u!1 &2007859708
 GameObject:

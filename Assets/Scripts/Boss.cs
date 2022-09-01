@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 public class Boss : MonoBehaviour
 {
@@ -45,6 +46,9 @@ public class Boss : MonoBehaviour
     public Text vidaTextoDay;
     public Text vidaTextoJess;
 
+    // TAGS
+    string[] tags = {"Boss1", "Boss2"};
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,7 +62,7 @@ public class Boss : MonoBehaviour
     void Update()
     {
         MaisProxima();
-        if (distanciaMenor < 8 && atacar == false)
+        if (distanciaMenor < 6 && atacar == false)
         {
             if (pausa)
             {
@@ -275,6 +279,18 @@ public class Boss : MonoBehaviour
 
         }
     }
+
+    GameObject[] FindGameObjectsWithTags(params string[] tags)
+    {
+        var all = new List<GameObject>();
+
+        foreach (string tag in tags)
+        {
+            all.AddRange(GameObject.FindGameObjectsWithTag(tag).ToList());
+        }
+
+        return all.ToArray();
+    }
     void HeroiVivo()
     {
         if (vidaTextoDay.text == "0" || vidaTextoJess.text == "0")
@@ -292,7 +308,7 @@ public class Boss : MonoBehaviour
 
             telaDerrota.SetActive(true);
 
-            GameObject[] bossesVivos = GameObject.FindGameObjectsWithTag("Boss");
+            GameObject[] bossesVivos = FindGameObjectsWithTags(tags);
 
             foreach (GameObject i in bossesVivos)
             {

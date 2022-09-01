@@ -42,6 +42,8 @@ public class Jess : MonoBehaviour
     public List<GameObject> bosses;
     public GameObject vidaBoss1;
     public GameObject vidaBoss2;
+    public int indiceVidaBoss1 = 0;
+    public int indiceVidaBoss2 = 0;
 
     // SPRITES
     public SpriteRenderer mostradorDeImagem;
@@ -50,6 +52,27 @@ public class Jess : MonoBehaviour
     void Start()
     {
         mostradorDeImagem = GetComponent<SpriteRenderer>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (atacou)
+        {
+            Ataque();
+        }
+        else
+        {
+            Movimento();
+            if (Input.GetMouseButtonDown(0))
+            {
+                atacou = true;
+                indiceInimigos = 0;
+            }
+        }
+        Mortos();
+        Vitoria();
     }
 
     void Ataque()
@@ -114,10 +137,10 @@ public class Jess : MonoBehaviour
                 Vector3 minhaPos = transform.position;
                 Vector3 bossPos = bosses[indiceBosses].transform.position;
                 float distancia = Vector3.Distance(minhaPos, bossPos);
-                //Debug.Log(distancia);
-                if (distancia < 3)
+                if (distancia < 5)
                 {
-                    DecrecerVidaBoss();
+                    Debug.Log("decrescer");
+                    DecrecerVidaBoss(bosses[indiceBosses]);
                 }
             }
 
@@ -125,9 +148,19 @@ public class Jess : MonoBehaviour
         }
     }
 
-    void DecrecerVidaBoss()
+    void DecrecerVidaBoss(GameObject boss)
     {
-        Debug.Log("Vida Decrescida");
+        if (boss.tag == "Boss1")
+        {
+            imagensVidaBoss1[indiceVidaBoss1].gameObject.SetActive(false);
+            indiceVidaBoss1++;
+        }
+        else
+        {
+            imagensVidaBoss2[indiceVidaBoss2].gameObject.SetActive(false);
+            indiceVidaBoss2++;
+        }
+
     }
 
     void AnimacaoAndar(List<Sprite> l)
@@ -246,24 +279,4 @@ public class Jess : MonoBehaviour
         nomeBoss2.gameObject.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-        if (atacou)
-        {
-            Ataque();
-        }
-        else
-        {
-            Movimento();
-            if (Input.GetMouseButtonDown(0))
-            {
-                atacou = true;
-                indiceInimigos = 0;
-            }
-        }
-        Mortos();
-        Vitoria();
-    }
 }
