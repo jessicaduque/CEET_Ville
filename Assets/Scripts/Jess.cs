@@ -27,8 +27,8 @@ public class Jess : MonoBehaviour
     public int indiceInimigos = 0;
     public List<GameObject> inimigos;
     public GameObject telaVitoria;
-    public int mortos = 0;
-    public int indiceMortos = 0;
+    public int inimigosMortos = 0;
+    public int indiceInimigosMortos = 0;
 
     // BOSSES
     public bool faseBoss = false;
@@ -44,6 +44,8 @@ public class Jess : MonoBehaviour
     public GameObject vidaBoss2;
     public int indiceVidaBoss1 = 0;
     public int indiceVidaBoss2 = 0;
+    public int bossesMortos = 0;
+    public int indiceBossesMortos = 0;
 
     // SPRITES
     public SpriteRenderer mostradorDeImagem;
@@ -75,7 +77,11 @@ public class Jess : MonoBehaviour
 
         if(faseBoss == false)
         {
-            Mortos();
+            InimigosMortos();
+        }
+        else
+        {
+            BossesMortos();
         }
         
         Vitoria();
@@ -143,9 +149,8 @@ public class Jess : MonoBehaviour
                 Vector3 minhaPos = transform.position;
                 Vector3 bossPos = bosses[indiceBosses].transform.position;
                 float distancia = Vector3.Distance(minhaPos, bossPos);
-                if (distancia < 10)
+                if (distancia < 3)
                 {
-                    Debug.Log("decrescer");
                     DecrecerVidaBoss(bosses[indiceBosses]);
                 }
             }
@@ -160,11 +165,23 @@ public class Jess : MonoBehaviour
         {
             imagensVidaBoss1[indiceVidaBoss1].gameObject.SetActive(false);
             indiceVidaBoss1++;
+            if(indiceVidaBoss1 == 5)
+            {
+                Destroy(boss1);
+                nomeBoss1.gameObject.SetActive(false);
+                bossesMortos++;
+            }
         }
         else
         {
             imagensVidaBoss2[indiceVidaBoss2].gameObject.SetActive(false);
             indiceVidaBoss2++;
+            if (indiceVidaBoss2 == 5)
+            {
+                Destroy(boss2);
+                nomeBoss2.gameObject.SetActive(false);
+                bossesMortos++;
+            }
         }
 
     }
@@ -244,24 +261,24 @@ public class Jess : MonoBehaviour
         }
     }
 
-    void Mortos()
+    void InimigosMortos()
     {
-        if (indiceMortos < inimigos.Count)
+        if (indiceInimigosMortos < inimigos.Count)
         {
-            if(inimigos[indiceMortos] == null)
+            if(inimigos[indiceInimigosMortos] == null)
             {
-                mortos++;
+                inimigosMortos++;
             }
-            if(mortos == inimigos.Count)
+            if(inimigosMortos == inimigos.Count)
             {
                 Boss();
             }
-            indiceMortos++;
+            indiceInimigosMortos++;
         }
         else
         {
-            indiceMortos = 0;
-            mortos = 0;
+            indiceInimigosMortos = 0;
+            inimigosMortos = 0;
         }
     }
 
@@ -283,6 +300,14 @@ public class Jess : MonoBehaviour
         vidaBoss2.SetActive(true);
         nomeBoss1.gameObject.SetActive(true); 
         nomeBoss2.gameObject.SetActive(true);
+    }
+
+    void BossesMortos()
+    {
+        if (bossesMortos == bosses.Count)
+        {
+            telaVitoria.SetActive(true);
+        }
     }
 
 }
