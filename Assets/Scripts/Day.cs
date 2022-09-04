@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Day : MonoBehaviour
 {
@@ -26,6 +27,23 @@ public class Day : MonoBehaviour
     public int indiceInimigos = 0;
     public List<GameObject> inimigos;
     public GameObject telaVitoria;
+
+    // BOSSES
+    public bool faseBoss = false;
+    public GameObject boss1;
+    public GameObject boss2;
+    public Text nomeBoss1;
+    public Text nomeBoss2;
+    public List<Image> imagensVidaBoss1;
+    public List<Image> imagensVidaBoss2;
+    public int indiceBosses = 0;
+    public List<GameObject> bosses;
+    public GameObject vidaBoss1;
+    public GameObject vidaBoss2;
+    public int indiceVidaBoss1 = 0;
+    public int indiceVidaBoss2 = 0;
+    public int bossesMortos = 0;
+    public int indiceBossesMortos = 0;
 
     // SPRITES
     public SpriteRenderer mostradorDeImagem;
@@ -56,7 +74,15 @@ public class Day : MonoBehaviour
             {
                 AnimacaoAtaque(atacarEsquerda, andarEsquerda);
             }
-            CalculoInimigo();
+
+            if (faseBoss)
+            {
+                CalculoBoss();
+            }
+            else
+            {
+                CalculoInimigo();
+            }
         }
     }
 
@@ -78,6 +104,52 @@ public class Day : MonoBehaviour
 
             indiceInimigos++;
         }
+    }
+
+    void CalculoBoss()
+    {
+        if (indiceBosses < bosses.Count)
+        {
+            if (bosses[indiceBosses] != null)
+            {
+                Vector3 minhaPos = transform.position;
+                Vector3 bossPos = bosses[indiceBosses].transform.position;
+                float distancia = Vector3.Distance(minhaPos, bossPos);
+                if (distancia < 3)
+                {
+                    DecrecerVidaBoss(bosses[indiceBosses]);
+                }
+            }
+
+            indiceBosses++;
+        }
+    }
+
+    void DecrecerVidaBoss(GameObject boss)
+    {
+        if (boss.tag == "Boss1")
+        {
+            imagensVidaBoss1[indiceVidaBoss1].gameObject.SetActive(false);
+            indiceVidaBoss1++;
+            if (indiceVidaBoss1 == 5)
+            {
+                Destroy(boss1);
+                nomeBoss1.gameObject.SetActive(false);
+                bossesMortos++;
+            }
+        }
+        else
+        {
+            imagensVidaBoss2[indiceVidaBoss2].gameObject.SetActive(false);
+            indiceVidaBoss2++;
+            if (indiceVidaBoss2 == 5)
+            {
+                Destroy(boss2);
+                nomeBoss2.gameObject.SetActive(false);
+                bossesMortos++;
+            }
+        }
+
     }
 
     void AnimacaoAndar(List<Sprite> l)
@@ -155,6 +227,14 @@ public class Day : MonoBehaviour
         }
     }
 
+    void Boss()
+    {
+        if (boss1.activeSelf)
+        {
+            faseBoss = true;
+        }
+    }
+
     void Vitoria()
     {
         if(telaVitoria.activeSelf == true)
@@ -179,6 +259,8 @@ public class Day : MonoBehaviour
                 indiceInimigos = 0;
             }
         }
+
+        Boss();
         Vitoria();
     }
 }

@@ -304,9 +304,22 @@ public class Jess : MonoBehaviour
 
     void BossesMortos()
     {
-        if (bossesMortos == bosses.Count)
+        if (indiceBossesMortos < bosses.Count)
         {
-            telaVitoria.SetActive(true);
+            if (bosses[indiceBossesMortos] == null)
+            {
+                bossesMortos++;
+            }
+            if (bossesMortos == bosses.Count)
+            {
+                telaVitoria.SetActive(true);
+            }
+            indiceBossesMortos++;
+        }
+        else
+        {
+            indiceBossesMortos = 0;
+            bossesMortos = 0;
         }
     }
 
