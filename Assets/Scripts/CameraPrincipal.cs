@@ -25,6 +25,7 @@ public class CameraPrincipal : MonoBehaviour
         GetComponent<Camera>().orthographicSize = x + 2;
 
         CamMin();
+        Limites();
     }
 
     public Vector3 LerpByDistance(Vector3 A, Vector3 B, float x)
@@ -38,6 +39,16 @@ public class CameraPrincipal : MonoBehaviour
         if(GetComponent<Camera>().orthographicSize < 5.5f)
         {
             GetComponent<Camera>().orthographicSize = 5.5f;
+        }
+    }
+
+    void Limites()
+    {
+        float x = GetComponent<Camera>().transform.position.x;
+        float y = GetComponent<Camera>().transform.position.y;
+        if (y < -36.5f)
+        {
+            transform.position = new Vector3(transform.position.x, -36.5f, transform.position.z);
         }
     }
 
