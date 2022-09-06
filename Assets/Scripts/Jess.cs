@@ -36,16 +36,20 @@ public class Jess : MonoBehaviour
     public GameObject boss2;
     public Text nomeBoss1;
     public Text nomeBoss2;
-    public List<Image> imagensVidaBoss1;
-    public List<Image> imagensVidaBoss2;
     public int indiceBosses = 0;
     public List<GameObject> bosses;
     public GameObject vidaBoss1;
     public GameObject vidaBoss2;
-    public int indiceVidaBoss1 = 0;
-    public int indiceVidaBoss2 = 0;
-    public int bossesMortos = 0;
-    public int indiceBossesMortos = 0;
+    public Image boss1vida1;
+    public Image boss1vida2;
+    public Image boss1vida3;
+    public Image boss1vida4;
+    public Image boss1vida5;
+    public Image boss2vida1;
+    public Image boss2vida2;
+    public Image boss2vida3;
+    public Image boss2vida4;
+    public Image boss2vida5;
 
     // SPRITES
     public SpriteRenderer mostradorDeImagem;
@@ -81,10 +85,9 @@ public class Jess : MonoBehaviour
         }
         else
         {
-            BossesMortos();
+            Vitoria();
         }
         
-        Vitoria();
     }
 
     void Ataque()
@@ -163,24 +166,52 @@ public class Jess : MonoBehaviour
     {
         if (boss.tag == "Boss1")
         {
-            imagensVidaBoss1[indiceVidaBoss1].gameObject.SetActive(false);
-            indiceVidaBoss1++;
-            if(indiceVidaBoss1 == 5)
+            if(boss1vida5.gameObject.activeSelf == true)
             {
+                boss1vida5.gameObject.SetActive(false);
+            }
+            else if (boss1vida4.gameObject.activeSelf == true)
+            {
+                boss1vida4.gameObject.SetActive(false);
+            }
+            else if (boss1vida3.gameObject.activeSelf == true)
+            {
+                boss1vida3.gameObject.SetActive(false);
+            }
+            else if (boss1vida2.gameObject.activeSelf == true)
+            {
+                boss1vida2.gameObject.SetActive(false);
+            }
+            else if (boss1vida1.gameObject.activeSelf == true)
+            {
+                boss1vida1.gameObject.SetActive(false);
                 Destroy(boss1);
                 nomeBoss1.gameObject.SetActive(false);
-                bossesMortos++;
             }
         }
         else
         {
-            imagensVidaBoss2[indiceVidaBoss2].gameObject.SetActive(false);
-            indiceVidaBoss2++;
-            if (indiceVidaBoss2 == 5)
+            if (boss2vida5.gameObject.activeSelf == true)
             {
+                boss2vida5.gameObject.SetActive(false);
+            }
+            else if (boss2vida4.gameObject.activeSelf == true)
+            {
+                boss2vida4.gameObject.SetActive(false);
+            }
+            else if (boss2vida3.gameObject.activeSelf == true)
+            {
+                boss2vida3.gameObject.SetActive(false);
+            }
+            else if (boss2vida2.gameObject.activeSelf == true)
+            {
+                boss2vida2.gameObject.SetActive(false);
+            }
+            else if (boss2vida1.gameObject.activeSelf == true)
+            {
+                boss2vida1.gameObject.SetActive(false);
                 Destroy(boss2);
                 nomeBoss2.gameObject.SetActive(false);
-                bossesMortos++;
             }
         }
 
@@ -284,6 +315,11 @@ public class Jess : MonoBehaviour
 
     void Vitoria()
     {
+        if(boss1vida1.gameObject.activeSelf == false && boss2vida1.gameObject.activeSelf == false)
+        {
+            telaVitoria.SetActive(true);
+        }
+
         if (telaVitoria.activeSelf == true)
         {
             mostradorDeImagem.sprite = andarBaixo[0];
@@ -300,27 +336,6 @@ public class Jess : MonoBehaviour
         vidaBoss2.SetActive(true);
         nomeBoss1.gameObject.SetActive(true); 
         nomeBoss2.gameObject.SetActive(true);
-    }
-
-    void BossesMortos()
-    {
-        if (indiceBossesMortos < bosses.Count)
-        {
-            if (bosses[indiceBossesMortos] == null)
-            {
-                bossesMortos++;
-            }
-            if (bossesMortos == bosses.Count)
-            {
-                telaVitoria.SetActive(true);
-            }
-            indiceBossesMortos++;
-        }
-        else
-        {
-            indiceBossesMortos = 0;
-            bossesMortos = 0;
-        }
     }
 
 }

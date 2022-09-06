@@ -3621,28 +3621,22 @@ MonoBehaviour:
   boss2: {fileID: 1464377463}
   nomeBoss1: {fileID: 169184625}
   nomeBoss2: {fileID: 1737955716}
-  imagensVidaBoss1:
-  - {fileID: 547784209}
-  - {fileID: 1359149234}
-  - {fileID: 2010807763}
-  - {fileID: 677479514}
-  - {fileID: 861422000}
-  imagensVidaBoss2:
-  - {fileID: 1379756348}
-  - {fileID: 181340577}
-  - {fileID: 1430999487}
-  - {fileID: 2114680776}
-  - {fileID: 1202971433}
   indiceBosses: 0
   bosses:
   - {fileID: 1949555618}
   - {fileID: 1464377463}
   vidaBoss1: {fileID: 71402759}
   vidaBoss2: {fileID: 2007859708}
-  indiceVidaBoss1: 0
-  indiceVidaBoss2: 0
-  bossesMortos: 0
-  indiceBossesMortos: 0
+  boss1vida1: {fileID: 547784209}
+  boss1vida2: {fileID: 1359149234}
+  boss1vida3: {fileID: 2010807763}
+  boss1vida4: {fileID: 677479514}
+  boss1vida5: {fileID: 861422000}
+  boss2vida1: {fileID: 1379756348}
+  boss2vida2: {fileID: 181340577}
+  boss2vida3: {fileID: 1430999487}
+  boss2vida4: {fileID: 2114680776}
+  boss2vida5: {fileID: 1202971433}
   mostradorDeImagem: {fileID: 0}
 --- !u!1 &843339362
 GameObject:
@@ -9944,28 +9938,22 @@ MonoBehaviour:
   boss2: {fileID: 1464377463}
   nomeBoss1: {fileID: 169184625}
   nomeBoss2: {fileID: 1737955716}
-  imagensVidaBoss1:
-  - {fileID: 861422000}
-  - {fileID: 677479514}
-  - {fileID: 2010807763}
-  - {fileID: 1359149234}
-  - {fileID: 547784209}
-  imagensVidaBoss2:
-  - {fileID: 1202971433}
-  - {fileID: 2114680776}
-  - {fileID: 1430999487}
-  - {fileID: 181340577}
-  - {fileID: 1379756348}
   indiceBosses: 0
   bosses:
   - {fileID: 1949555618}
   - {fileID: 1464377463}
   vidaBoss1: {fileID: 71402759}
   vidaBoss2: {fileID: 2007859708}
-  indiceVidaBoss1: 0
-  indiceVidaBoss2: 0
-  bossesMortos: 0
-  indiceBossesMortos: 0
+  boss1vida1: {fileID: 547784209}
+  boss1vida2: {fileID: 1359149234}
+  boss1vida3: {fileID: 2010807763}
+  boss1vida4: {fileID: 677479514}
+  boss1vida5: {fileID: 861422000}
+  boss2vida1: {fileID: 1379756348}
+  boss2vida2: {fileID: 181340577}
+  boss2vida3: {fileID: 1430999487}
+  boss2vida4: {fileID: 2114680776}
+  boss2vida5: {fileID: 1202971433}
   mostradorDeImagem: {fileID: 0}
 --- !u!1 &2007859708
 GameObject:
