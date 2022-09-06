@@ -152,7 +152,7 @@ public class Day : MonoBehaviour
             else if (boss1vida1.gameObject.activeSelf == true)
             {
                 boss1vida1.gameObject.SetActive(false);
-                Destroy(boss1);
+                boss1.gameObject.SetActive(false);
                 nomeBoss1.gameObject.SetActive(false);
             }
         }
@@ -177,7 +177,7 @@ public class Day : MonoBehaviour
             else if (boss2vida1.gameObject.activeSelf == true)
             {
                 boss2vida1.gameObject.SetActive(false);
-                Destroy(boss2);
+                boss2.gameObject.SetActive(false);
                 nomeBoss2.gameObject.SetActive(false);
             }
         }
@@ -189,7 +189,7 @@ public class Day : MonoBehaviour
         int elem = l.Count;
         contAndar++;
         mostradorDeImagem.sprite = l[indiceAndar];
-        if (contAndar > 30)
+        if (contAndar > 20)
         {
             indiceAndar++;
             contAndar = 0;
@@ -223,7 +223,7 @@ public class Day : MonoBehaviour
         // ANDAR ESQUERDA
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position = new Vector3(transform.position.x - 0.01f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x - 0.04f, transform.position.y, transform.position.z);
             direcao = "esquerda";
             AnimacaoAndar(andarEsquerda);
         }
@@ -231,7 +231,7 @@ public class Day : MonoBehaviour
         // ANDAR CIMA
         else if (Input.GetKey(KeyCode.W))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.01f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.04f, transform.position.z);
             direcao = "cima";
             AnimacaoAndar(andarCima);
 
@@ -240,7 +240,7 @@ public class Day : MonoBehaviour
         // ANDAR BAIXO
         else if (Input.GetKey(KeyCode.S))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - 0.01f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y - 0.04f, transform.position.z);
             direcao = "baixo";
             AnimacaoAndar(andarBaixo);
 
@@ -249,7 +249,7 @@ public class Day : MonoBehaviour
         // ANDAR DIREITA
         else if (Input.GetKey(KeyCode.D))
         {
-            transform.position = new Vector3(transform.position.x + 0.01f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x + 0.04f, transform.position.y, transform.position.z);
             direcao = "direita";
             AnimacaoAndar(andarDireita);
         }

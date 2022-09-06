@@ -166,7 +166,7 @@ public class Jess : MonoBehaviour
     {
         if (boss.tag == "Boss1")
         {
-            if(boss1vida5.gameObject.activeSelf == true)
+            if (boss1vida5.gameObject.activeSelf == true)
             {
                 boss1vida5.gameObject.SetActive(false);
             }
@@ -185,7 +185,7 @@ public class Jess : MonoBehaviour
             else if (boss1vida1.gameObject.activeSelf == true)
             {
                 boss1vida1.gameObject.SetActive(false);
-                Destroy(boss1);
+                boss1.gameObject.SetActive(false);
                 nomeBoss1.gameObject.SetActive(false);
             }
         }
@@ -210,7 +210,7 @@ public class Jess : MonoBehaviour
             else if (boss2vida1.gameObject.activeSelf == true)
             {
                 boss2vida1.gameObject.SetActive(false);
-                Destroy(boss2);
+                boss2.gameObject.SetActive(false);
                 nomeBoss2.gameObject.SetActive(false);
             }
         }
@@ -222,7 +222,7 @@ public class Jess : MonoBehaviour
         int elem = l.Count;
         contAndar++;
         mostradorDeImagem.sprite = l[indiceAndar];
-        if (contAndar > 30)
+        if (contAndar > 20)
         {
             indiceAndar++;
             contAndar = 0;
@@ -256,7 +256,7 @@ public class Jess : MonoBehaviour
         // ANDAR ESQUERDA
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.position = new Vector3(transform.position.x - 0.01f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x - 0.04f, transform.position.y, transform.position.z);
             direcao = "esquerda";
             AnimacaoAndar(andarEsquerda);
         }
@@ -264,7 +264,7 @@ public class Jess : MonoBehaviour
         // ANDAR CIMA
         else if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.01f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.04f, transform.position.z);
             direcao = "cima";
             AnimacaoAndar(andarCima);
 
@@ -273,7 +273,7 @@ public class Jess : MonoBehaviour
         // ANDAR BAIXO
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - 0.01f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y - 0.04f, transform.position.z);
             direcao = "baixo";
             AnimacaoAndar(andarBaixo);
 
@@ -282,7 +282,7 @@ public class Jess : MonoBehaviour
         // ANDAR DIREITA
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position = new Vector3(transform.position.x + 0.01f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x + 0.04f, transform.position.y, transform.position.z);
             direcao = "direita";
             AnimacaoAndar(andarDireita);
         }

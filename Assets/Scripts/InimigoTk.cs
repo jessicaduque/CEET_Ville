@@ -38,8 +38,7 @@ public class InimigoTk : MonoBehaviour
     float distanciaMenor;
 
     // INTELIGÊNCIA
-    public int posMax = 14;
-    public int posMin = 3;
+    public int contInt = 0;
 
     // VIDA
     public Text vidaTextoDay;
@@ -106,26 +105,28 @@ public class InimigoTk : MonoBehaviour
         // ANDAR ESQUERDA
         if (direcao == "esquerda")
         {
-            transform.position = new Vector3(transform.position.x - 0.007f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x - 0.02f, transform.position.y, transform.position.z);
             AnimacaoAndar(andarEsquerda);
         }
 
         // ANDAR DIREITA
         else if (direcao == "direita")
         {
-            transform.position = new Vector3(transform.position.x + 0.007f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x + 0.02f, transform.position.y, transform.position.z);
             AnimacaoAndar(andarDireita);
         }
     }
     void Inteligencia()
     {
-        if (transform.position.x > posMax)
+        contInt++;
+        if (contInt > 400)
         {
             direcao = "esquerda";
         }
-        if (transform.position.x < posMin)
+        if (contInt > 800)
         {
             direcao = "direita";
+            contInt = 0;
         }
     }
     void AnimacaoAndar(List<Sprite> l)

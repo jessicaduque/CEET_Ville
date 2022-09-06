@@ -155,28 +155,28 @@ public class InimigoSk : MonoBehaviour
         // ANDAR ESQUERDA
         if (direcao == "esquerda")
         {
-            transform.position = new Vector3(transform.position.x - 0.007f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x - 0.01f, transform.position.y, transform.position.z);
             AnimacaoAndar(andarEsquerda);
         }
 
         // ANDAR CIMA
         else if (direcao == "cima")
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.007f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.02f, transform.position.z);
             AnimacaoAndar(andarCima);
         }
 
         // ANDAR BAIXO
         else if (direcao == "baixo")
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - 0.007f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y - 0.02f, transform.position.z);
             AnimacaoAndar(andarBaixo);
         }
 
         // ANDAR DIREITA
         else if (direcao == "direita")
         {
-            transform.position = new Vector3(transform.position.x + 0.007f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x + 0.02f, transform.position.y, transform.position.z);
             AnimacaoAndar(andarDireita);
         }
     }
