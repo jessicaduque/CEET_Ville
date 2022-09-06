@@ -44,12 +44,8 @@ public class CameraPrincipal : MonoBehaviour
 
     void Limites()
     {
-        float x = GetComponent<Camera>().transform.position.x;
-        float y = GetComponent<Camera>().transform.position.y;
-        if (y < -36.5f)
-        {
-            transform.position = new Vector3(transform.position.x, -36.5f, transform.position.z);
-        }
+        float xpos = GetComponent<Camera>().transform.position.x;
+        float ypos = GetComponent<Camera>().transform.position.y;
     }
 
 }
