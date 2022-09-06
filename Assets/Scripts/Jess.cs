@@ -237,7 +237,7 @@ public class Jess : MonoBehaviour
     {
         mostradorDeImagem.sprite = lAtk[indiceAtaque];
         contAtaque++;
-        if (contAtaque > 20)
+        if (contAtaque > 30)
         {
             indiceAtaque++;
             contAtaque = 0;

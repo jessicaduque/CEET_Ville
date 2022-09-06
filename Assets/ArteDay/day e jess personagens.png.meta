@@ -1,0 +1,5622 @@
+fileFormatVersion: 2
+guid: 45873481d4fabe445b409720fc031e22
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 440
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: day e jess personagens_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cc1364d993e9143929c56903873349
+      internalID: -1759281312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc3ee1a5cae9d54dbc65045115dc2d4
+      internalID: -1338418524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d1888708f3eef4aaa090af8254595e
+      internalID: 1134007936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_3
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fb0ef6958317648ac6da90edc78a35
+      internalID: -687866394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_4
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29692f999402e7f4784234eecf619f27
+      internalID: 59958588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_5
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63933713b0793d4eb29e5f490c8f597
+      internalID: 421322723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_6
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be35f32e8b7784baf0bd9e99bc1ca7
+      internalID: 942292884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_7
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5c0aedbac64d74db8407b0079b6c0c
+      internalID: -320135187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_8
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45977cf3cc46aaa4088d66636e8db424
+      internalID: 635033262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_9
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f3f0f8dd3b2a244b588c82576f974c
+      internalID: 1930239954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_10
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 8961
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc110851008610744b35842c4b4a7939
+      internalID: -1984759412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1485faa7afd7468120ff810680676
+      internalID: -1635027119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c600941e59f20047a457bb80123568b
+      internalID: -1845741324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_13
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddeff5da93c79d43a0ea8a19919b232
+      internalID: 1434759086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_14
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419ec099dfda84a4185cae044709b095
+      internalID: -1195292640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_15
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eff524cd142c141a78472c7e472d01
+      internalID: -989526255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_16
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0fa54c756d9a843bd02767f7fc57fa
+      internalID: -700299402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_17
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d557ba64da0f84e93eb81865442b94
+      internalID: -100900514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_18
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0ae851f38795e418aeaeb8c212bec0
+      internalID: 1389125153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_19
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadce499e64e3cd479ec28ba1238d858
+      internalID: -2055212050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_20
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014b2562bab242c47b5ed8ad66364e7f
+      internalID: 2070235918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_21
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 8521
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21870eaae1c112042a7c5235c9a6d43b
+      internalID: 732000146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dc721734a1ae442b0bfac8026d2e73
+      internalID: -630413501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_23
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13caf290c1c15d840b06a4a045d8ff22
+      internalID: 806494829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_24
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3403cb59af62848920e8ad80b5e152
+      internalID: 901287541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_25
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01962526ec3ea584b83bd5edf845f214
+      internalID: -1313625178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_26
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946a93ee9653734428b3cec2b7fb2482
+      internalID: 1414146349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_27
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed6c2374a0dc2244ac17392617ee0ad
+      internalID: -152018595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_28
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db552c544e8ef3640a8027c02026e947
+      internalID: 1748218407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_29
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf59c1ecc04a744967527e9034202d
+      internalID: 2022612311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_30
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fc6f2dd6dbe6248bf01ce169198c2b
+      internalID: -516341924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_31
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba241756450a14099ba28f5577633b
+      internalID: 1464960747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_32
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 8081
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f9ab76295c951409223d012289a852
+      internalID: 1692999516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e23b708d92a99846862da782c244bd0
+      internalID: -1986080246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_34
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3169378cc4854489051ccc2f0366a0
+      internalID: 1318509762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_35
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc67bb4e5d67054c8de82e89ac09d01
+      internalID: 1492971035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_36
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3982f137257e8ae4f906f60ef3680d76
+      internalID: -1801354151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_37
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dbd92a5380cbd4bb7bdefb229ea066
+      internalID: -708802903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_38
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2498900ee7dd2240878b1c7ae9ddb2c
+      internalID: -1603062785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_39
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae63d4b5a12e21746bab2283ff66cf80
+      internalID: 293747113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_40
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde355e6e6b106f4dabab05ffe2b7f3f
+      internalID: -129349407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_41
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af290eb43cff3f14a881a6b2d1a14de4
+      internalID: -668781866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_42
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749ffa9acac888b4cbea4d98d1781c40
+      internalID: -1424179306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_43
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 7641
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b93cd8a60b659844b60b09b863a9bca
+      internalID: 2084820123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d840cc1cc5eb8f448a557bb9a34c4228
+      internalID: -2109049793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_45
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14c46c6cba18854b944018abe42b5b0
+      internalID: -1121568962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_46
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9a3e972c0b2f34796e46a024478b55
+      internalID: -215849674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_47
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473a39adb18a65a4eb6d5343006c7a85
+      internalID: -64847127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_48
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e8a3a2593e60848b5c7646c10424a8
+      internalID: -361193309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_49
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b251f33f26bb691459977ed387ac1073
+      internalID: 83510836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_50
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc235f3b6115224080d1f34a0a0c236
+      internalID: 1715851248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_51
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314dc26d8694b854a9ec9480d753a442
+      internalID: 673703688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_52
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8004b7e1cf3ee4b9c9eb88399eba13
+      internalID: -1184584545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_53
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fb6ae8d2c48374190a4e98274f6073
+      internalID: -114030844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_54
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 7201
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03020c73705bc0c4e8468388d5c30b96
+      internalID: 2068649628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d188c0a8462e9454bb9393cc6e88e3ea
+      internalID: -1434493892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_56
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390beb912a36dd04bbeaf1274391f5e7
+      internalID: 1636582486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_57
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd422c7d79ed7d242b44db79ce2c06ef
+      internalID: 31785470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_58
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea98ef0db4b8ca40909ee32ae4b8926
+      internalID: 1626220941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_59
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2409e202fdc30b84a834ccdd41da25a8
+      internalID: 1423351003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_60
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851512a863894994cb2b420ca29360e2
+      internalID: 855933160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_61
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888adcd350e58d34bb35b01c1fcb157a
+      internalID: -105135749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_62
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b40cd6b61c9091429df807cc339a79b
+      internalID: -310929104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_63
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62ba41ba6be4a3489510a37cd5a790a
+      internalID: -962590228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_64
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208e48ed7019f2346b3c1fc17c43d5de
+      internalID: 341141316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_65
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 6761
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84288d29d66fb0f47bc60f5f0ca6f1bc
+      internalID: -1498672770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68f146a3fbaa6642b285c4bedd469da
+      internalID: -659578268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_67
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34696c269df128f499f300a8a5f0d594
+      internalID: 108912233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_68
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd55bc42465db42b9e6b1a4dfc6c99
+      internalID: -1660343651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_69
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d2c9c0f1bc29b4fadf4df3f4cae641
+      internalID: 1502072474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_70
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9a7c3e5a5c6054c821e0805c5d5b01
+      internalID: -574759224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_71
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddc0b827581e764d8820da1bc3f15f7
+      internalID: 1425293049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_72
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2473ef905b0e3e84682f9317391114d8
+      internalID: 1681884146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_73
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5160bee552de39242bd147652f9083c6
+      internalID: -1518197140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_74
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55d01afadf238f44b6231e7e4d804bf
+      internalID: 10389026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_75
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64046ebef4ef44946899369f145b9071
+      internalID: -1781652594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_76
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 6321
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3269608cb054eb4c9b324c5e4d83750
+      internalID: 1887193784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874eb197c57895342a6d7760aca62bef
+      internalID: 362813716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_78
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cdc1af85ea4e54c90d43ddb49f2cb1
+      internalID: 1629288947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_79
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19487dc984a599f48b3c9a03a3e4f9d3
+      internalID: -1258995153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_80
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4af89d2b41b4d40bd17876e775e9eb
+      internalID: -2105700437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_81
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82896bdb07f0dd64ba639a484e4023cf
+      internalID: 887058035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_82
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec81d61d6a30df04b96f7979a372a5ec
+      internalID: -1875868107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_83
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ecdaef28a20fc42b94c548d1d367e2
+      internalID: 2124903455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_84
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6fc12c6867ccc4297039509f9583c9
+      internalID: -476069249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_85
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04e91f60d7ef4e4f840008f490a71c0
+      internalID: 1774315833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_86
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf63036433a3a44cbef9d1e6240428c
+      internalID: 2107951375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_87
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 5881
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f32051aeb8af64d9835082c6a11d40
+      internalID: 1100100110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16003dd6550b8fc4fa672ef698acbe6e
+      internalID: -913209342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_89
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b343eecb0b644e140b5bda37aad7ba0c
+      internalID: 1161523517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_90
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab292cf233ea7c478873c839c1c83c3
+      internalID: 731169029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_91
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cd8505d6a49854e8f0251b462b70ec
+      internalID: -132172447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_92
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944fdf38c55ea42458a3667c6b50c9bb
+      internalID: 371229094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_93
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09761167770441740ae0257773eff080
+      internalID: -1235587672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_94
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357bc4e2bb434774c89d180655e3bcfd
+      internalID: 570325637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_95
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd7ffcf8d58b6b46aad8b057168e5fa
+      internalID: -1657284544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_96
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e5815f1d8a68041a4f33a16c50214b
+      internalID: 1467862650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_97
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 5441
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15664aab4c00d045b5e475aaaf495d5
+      internalID: 1451351619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349bcc5f1b381e4bba1cf0ae26fcca5
+      internalID: 585343848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_99
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bbcdbb376bceb479902a0a61d2075a
+      internalID: 2064030985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_100
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e167334fba30946ad43e1d7187e7db
+      internalID: 1395786314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_101
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a4547d1552fb04cb7e900b5c2c0817
+      internalID: -1851522792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_102
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a90d0005192bb3489b5ab5e7f8b0047
+      internalID: -2129326001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_103
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e53e16faaa07e40b0289eeae6b29e3
+      internalID: 97388549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_104
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab506561c6305fa4996edae4511ee090
+      internalID: 1814021894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_105
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90d06cd3072ef842b47fd99e553ab68
+      internalID: -582767869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_106
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68617c2489466454cbfdc0162e6ade49
+      internalID: 1084234136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_107
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 5001
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7accdef94ab9ba84f8c697f500fd6789
+      internalID: 1298379308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a2474b505e11942a2578c3251b7aa9
+      internalID: 792362539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_109
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a24313b333f4b439764486f7c88e87
+      internalID: 626344528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_110
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba9f5d687309c44caf2f6f1d4c252fb
+      internalID: -1725721287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_111
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030b85a413a5f5242ad3c7d703c57ae5
+      internalID: 2102922515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_112
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0b4cb4398f92440a1149bd2010d564
+      internalID: 513294217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_113
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a158b6125e3574eb6b4e7461329158
+      internalID: 1117350355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_114
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44565eb7c9168d446b9658cf788f44a9
+      internalID: 1983287009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_115
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be61744672850c34da70abb6989f1746
+      internalID: 465400904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_116
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210f9f58c54ae3b4cbff64f48d8bcae9
+      internalID: -1195140286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_117
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 4561
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b74dc50ea110747a3add5560be7aec
+      internalID: -325891836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d952d6397236584e9a49a55acb9eb16
+      internalID: -768733985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_119
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd371c4c01e4a94c992dca5809eccee
+      internalID: -1742196639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_120
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb3b402d9765c940a377dd15603164d
+      internalID: 1854615354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_121
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b743716e78bb5147b89ff3428ffd51a
+      internalID: -1692472072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_122
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7db8270f807d04e919c5d8179bcb68
+      internalID: -1045591210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_123
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb72d381b4f7f24f9153ae4b5da0139
+      internalID: 480075907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_124
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaada6153fed314dad83d2997daf3aa
+      internalID: 1952839170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_125
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd5f7c41faaa34c96cb1db9d01bedb
+      internalID: -836175184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_126
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58290ca31d0e50f46900dd7cf666a1d1
+      internalID: -516622239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_127
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 4121
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f93e91f2ac3ede4994be2128af10536
+      internalID: -1234336588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_128
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915cd503ad0fec044a49a4e5350e6933
+      internalID: -1053999464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_129
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb6cbc6e4f2a0a4799191ba41403e99
+      internalID: -2015644973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_130
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d030bd3b706e947b7b454cb8f03c10
+      internalID: -33419386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_131
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387451c1addf8e345966cb4a4d00709c
+      internalID: -144455288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_132
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368211908e273dd42baf1c0c10515200
+      internalID: -916934436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_133
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5988295effe4b374d8574584de8c92b8
+      internalID: -942590030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_134
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37605ffbd19d5ff4cbe73ecbdf49fc80
+      internalID: -1288065893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_135
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8812c95a1a77bbb4a8b30209727c2953
+      internalID: -1276713708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_136
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd7c0740c969c942a0fd710a35ee281
+      internalID: -1757131524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_137
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2cee2ec20d3224fb95252d73ea7e05
+      internalID: 1352786948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_138
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7795736effde924d95dbae23d326bb4
+      internalID: 223585475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_139
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3fd194617583a449c7f37ee84c9d44
+      internalID: -1058515711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_140
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96ee60805765334d873cd1d062c00ef
+      internalID: -922676021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_141
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7e7b93ea9836d4498f138ba2202684
+      internalID: 365417283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_142
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3681
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8919aa1d5915c418a8c15ff9d7b7bc
+      internalID: -1718747653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_143
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc97a8b10685f241a9a3af49c089d99
+      internalID: -1327200236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_144
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200850f6bc955854984185ba07aef3d5
+      internalID: 312989172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_145
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ba9abcaec4eb048b6d3ceb65bf21a8
+      internalID: -1858948765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_146
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54edb9fe2c73ff9498e8a11536728448
+      internalID: 887364725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_147
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef17668d618a2be42a377bd97808bd03
+      internalID: -1600911379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_148
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3385649f83be85845ab042c57196019c
+      internalID: 1400129177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_149
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f421f8560eba54fb725013eaa9dd39
+      internalID: -1838970903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_150
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec735228362d7954db10d8e5560fd4f8
+      internalID: -1182566055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_151
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371309fbefe3d7a49a94757b15e6c342
+      internalID: -864965667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_152
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e20fe4606d2a0459dbc2a1ee597cef
+      internalID: 1885056203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_153
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470da99ea0de52c4f84d7c3479af07e8
+      internalID: 1263279826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_154
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2e0274a64de51429ad4706113f2ee7
+      internalID: -982329803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_155
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbb4467f552b4a42931cabb12e98281
+      internalID: -1510764641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_156
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd9eddd4b4bcb846be3600cca87e9da
+      internalID: 147398778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_157
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3241
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b490fc1e847486d47827a4a4c2a1cfcf
+      internalID: -1787403648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa73d1faeb621c42be785507133aeb4
+      internalID: -1466261320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_159
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec829add5272a4ea601fcb1094dae3
+      internalID: -997452911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_160
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea07aa97bfbe9f941ba4a089edf5fa85
+      internalID: -1575661370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_161
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274ce31ea1463a54185634bab0431922
+      internalID: 744743254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_162
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a7f59bb78819941b10b89c81dfa998
+      internalID: 493636383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_163
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd92bcb224ae7f344839ec14c25cc359
+      internalID: -576263213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_164
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c3e47ef93553d49a18ba8dbab57da0
+      internalID: -823219250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_165
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d4600c06456924188d76695b023362
+      internalID: -1593882954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_166
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de99c43a478a28343928c0aba51291ae
+      internalID: -1733749224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_167
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96905e187f450346a21905e1b4ae3fe
+      internalID: -387378936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_168
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc2d456943736b4f920668f6c99b616
+      internalID: -383943020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_169
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71903035256dcf349a2e87c2419eea21
+      internalID: 285000200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_170
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c1a2bb3130aa04db72225f4cfa5c8d
+      internalID: 683794528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_171
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3ee022abfef044ea0a4dd5020b8040
+      internalID: -1171454394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_172
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7230a2953a26b2542af3bde65803211d
+      internalID: 1076014871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_173
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54647229cd1070949bd1d8f14e0e936c
+      internalID: -825411612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_174
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2801
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd92c65fcfc67c84cbaa16a983cef46c
+      internalID: 19549473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24ae1285bd189143b72c3a4b94d29a0
+      internalID: -992897304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_176
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7643b7edcbb384f9a254509270bb81
+      internalID: 1913245922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_177
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d261132bb89aa64418c23bfc70484aa3
+      internalID: 1882686360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_178
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceff36d38e85b646887672ceff55604
+      internalID: -317444758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_179
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1396b5dbb76a13549ac6a70666a97491
+      internalID: -1586968867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_180
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570e73d71b3995b4c9b391138caa7598
+      internalID: -87539612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_181
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077523e40b08f5a4db0feb2bc925552c
+      internalID: -1202905211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_182
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b490d9e9f8a108439100a87a5117e71
+      internalID: -936720524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_183
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d83bddc500faf944b8afc9c65259b60
+      internalID: 370097847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_184
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0f33f4b39e43c408c486ace7d0d4c4
+      internalID: 1361479566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_185
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c1df080c355c3489ecab94474e9976
+      internalID: -205638627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_186
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059133a792b0bb54884ad5bd83a57717
+      internalID: 1577734065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_187
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b60be5633eb2b48bd5bac63a67327b
+      internalID: 1222379572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_188
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ad4622488fa3b498a8992bd97f8d67
+      internalID: 300938609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_189
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2361
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f718a0dc8ec6c84bb3d3cd7079d3382
+      internalID: -1822192986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bbffa8e7f21bd4d97d6db44f1397cb
+      internalID: 492365955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_191
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69655f170a4f91140890307bc260ba03
+      internalID: 1510248002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_192
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465e1f06a2df5ad40ba968bb2a00f675
+      internalID: -959204548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_193
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7f1ae402b8efe469f818622de5af61
+      internalID: 2133981442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_194
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b6ff3a082df55478e3e481495a12fb
+      internalID: 1516426815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_195
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374e084faf53eaa42aed0e10e3aab445
+      internalID: 1929523025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_196
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfbc20e816949e408ea5754816ceda9
+      internalID: -649434322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_197
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cad7f92f1fe2c43ac0b3e0f688dd2e
+      internalID: -539786023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_198
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4884af4073b6a254684debaaa5a4655a
+      internalID: -1733807625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_199
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec623cefab6642542bb3692b8a8c13c3
+      internalID: -1517180482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_200
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7e3615d66be394dad53d7d8e7fae1d
+      internalID: -724528906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_201
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b10a3355de906f43b6dfd0bd63790bb
+      internalID: -235328106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_202
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35da9f6005108bd4a86b625843445266
+      internalID: 746368585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_203
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb1d0a728388b4d8a45c82562ad12c
+      internalID: 551727888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_204
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1921
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e268c6eccbba42499cc247a7fbee289
+      internalID: 1933458366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaf63eca21ca8b4f8c7d36dae5fde49
+      internalID: 405987880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_206
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3644bf0de45b7741b5838628c7ea238
+      internalID: -709337575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_207
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f187c86e5e6de7489451794d8c9f90f
+      internalID: -1233597713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_208
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0b834004d11cd4d9f53b17919145a6
+      internalID: 2076556774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_209
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd3f2d0133e3254c885a1b54a438107
+      internalID: -436583856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_210
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f00c2f31baa8f64d84ee499b06af835
+      internalID: -84836351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_211
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c844fa73a9422434895047a4456432d3
+      internalID: 1288139786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_212
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623055f904346994ca6bcdd452a46893
+      internalID: -659607529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_213
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059c4ca0498e73949a74ffdc42c68ab0
+      internalID: 445458141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_214
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b001ddc8e3e9c4f99e36e2166d9ff3
+      internalID: 515689243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_215
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67705c08875c1746834d87ddaa18a29
+      internalID: -219584222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_216
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28075c295d6a8fe4ab5b60aa38e4452f
+      internalID: -1414283546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_217
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eed813afa215dc4a8411af11ecdd9ce
+      internalID: 1585098554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_218
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ad0051577041a4ea2e9cf1069ad0b5
+      internalID: -1774724395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_219
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1481
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037a972082b2a04fb384217bed9a637
+      internalID: 232169895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd036fe389a6de5419efe03eebd2ef03
+      internalID: 754709752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_221
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a292d6cc0ea143a86439c48a128cc
+      internalID: -1570846555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_222
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8f63aac7f43eb47ab6e415747f1441
+      internalID: 139867001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_223
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9b6167d8423444c870f4ef44494880
+      internalID: -873030507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_224
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea3c72dd1cced0448dbd10fdffd9161
+      internalID: 978305102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_225
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76e51511e5fc454da9cc1307d34a4e4
+      internalID: -425338813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_226
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32674a54df1a7f747a663893b11db626
+      internalID: -692526006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_227
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385847870cc2a7d41a55416d464ae591
+      internalID: -401407562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_228
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170b10e9f0ef70e44bde207f1ccff9e0
+      internalID: 1670625255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_229
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3250b025fe9bae4c89b54a58255a796
+      internalID: -897834446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_230
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6789dfeb312998479cc8fbb1dc0655c
+      internalID: -220911064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_231
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d8a50ca3fd97a40bccbe5a0f2d971e
+      internalID: -1292608864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_232
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cf366cccd4c5b43a98dadb4645da02
+      internalID: -444614257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_233
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9b1326998718641a8cb9aeae3ecd8a
+      internalID: 677049418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_234
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1041
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bf79048e51ed34cb998694ce0df521
+      internalID: -1077170957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_235
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465e277b89ae26c43917d4d4a1d6fc2e
+      internalID: 2016282329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_236
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1140fa678f175428f04f3653df1209
+      internalID: 72823621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_237
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8503498a6845b4db39cf838df5acb0
+      internalID: -639540164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_238
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff68615f7a04748a7e91ae7dd2a4f0
+      internalID: 635929020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_239
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3f8c7ab2e3ee14e84619d9c1cfcc56
+      internalID: -1964484031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_240
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc274728717382e4d828ecca60927916
+      internalID: 1000986999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_241
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa39db9d68dc0a408f063d78b576cee
+      internalID: 1005807536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_242
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec6d1999e6c85340b8a33792c4efd1a
+      internalID: 696708631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_243
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb61e9b4fb9779a4fb426e78a0e2e6d2
+      internalID: 1703576962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_244
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a834db5f4bddc049969c0276ba6153a
+      internalID: 1049418898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_245
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819ad9e6950bbcb41a4050ee7711b460
+      internalID: -2010302165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_246
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea4937afecbaef4aac311b70914889e
+      internalID: -817102153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_247
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27c18285d660444284e1b8ccedede85
+      internalID: 1149100256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_248
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb05064dc5070343a631e8db370fb41
+      internalID: -297393975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day e jess personagens_249
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 601
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e133acb6a57b1e343802e20b11189aef
+      internalID: -1629568142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      day e jess personagens_219: 232169895
+      day e jess personagens_145: -1858948765
+      day e jess personagens_6: 942292884
+      day e jess personagens_169: 285000200
+      day e jess personagens_194: 1516426815
+      day e jess personagens_61: -105135749
+      day e jess personagens_181: -1202905211
+      day e jess personagens_14: -1195292640
+      day e jess personagens_189: -1822192986
+      day e jess personagens_108: 792362539
+      day e jess personagens_9: 1930239954
+      day e jess personagens_162: 493636383
+      day e jess personagens_101: -1851522792
+      day e jess personagens_243: 1703576962
+      day e jess personagens_82: -1875868107
+      day e jess personagens_10: -1984759412
+      day e jess personagens_115: 465400904
+      day e jess personagens_32: 1692999516
+      day e jess personagens_167: -387378936
+      day e jess personagens_109: 626344528
+      day e jess personagens_184: 1361479566
+      day e jess personagens_216: -1414283546
+      day e jess personagens_236: 72823621
+      day e jess personagens_224: 978305102
+      day e jess personagens_39: 293747113
+      day e jess personagens_178: -317444758
+      day e jess personagens_85: 1774315833
+      day e jess personagens_138: 223585475
+      day e jess personagens_177: 1882686360
+      day e jess personagens_183: 370097847
+      day e jess personagens_23: 806494829
+      day e jess personagens_93: -1235587672
+      day e jess personagens_67: 108912233
+      day e jess personagens_15: -989526255
+      day e jess personagens_129: -2015644973
+      day e jess personagens_88: -913209342
+      day e jess personagens_131: -144455288
+      day e jess personagens_139: -1058515711
+      day e jess personagens_122: -1045591210
+      day e jess personagens_49: 83510836
+      day e jess personagens_230: -220911064
+      day e jess personagens_26: 1414146349
+      day e jess personagens_91: -132172447
+      day e jess personagens_66: -659578268
+      day e jess personagens_55: -1434493892
+      day e jess personagens_121: -1692472072
+      day e jess personagens_231: -1292608864
+      day e jess personagens_207: -1233597713
+      day e jess personagens_150: -1182566055
+      day e jess personagens_34: 1318509762
+      day e jess personagens_229: -897834446
+      day e jess personagens_149: -1838970903
+      day e jess personagens_90: 731169029
+      day e jess personagens_222: 139867001
+      day e jess personagens_28: 1748218407
+      day e jess personagens_11: -1635027119
+      day e jess personagens_244: 1049418898
+      day e jess personagens_146: 887364725
+      day e jess personagens_68: -1660343651
+      day e jess personagens_89: 1161523517
+      day e jess personagens_235: 2016282329
+      day e jess personagens_170: 683794528
+      day e jess personagens_128: -1053999464
+      day e jess personagens_134: -1288065893
+      day e jess personagens_72: 1681884146
+      day e jess personagens_143: -1327200236
+      day e jess personagens_95: -1657284544
+      day e jess personagens_92: 371229094
+      day e jess personagens_240: 1000986999
+      day e jess personagens_56: 1636582486
+      day e jess personagens_246: -817102153
+      day e jess personagens_44: -2109049793
+      day e jess personagens_196: -649434322
+      day e jess personagens_203: 551727888
+      day e jess personagens_59: 1423351003
+      day e jess personagens_94: 570325637
+      day e jess personagens_125: -836175184
+      day e jess personagens_130: -33419386
+      day e jess personagens_120: 1854615354
+      day e jess personagens_105: -582767869
+      day e jess personagens_141: 365417283
+      day e jess personagens_80: -2105700437
+      day e jess personagens_8: 635033262
+      day e jess personagens_241: 1005807536
+      day e jess personagens_46: -215849674
+      day e jess personagens_53: -114030844
+      day e jess personagens_242: 696708631
+      day e jess personagens_30: -516341924
+      day e jess personagens_174: 19549473
+      day e jess personagens_193: 2133981442
+      day e jess personagens_179: -1586968867
+      day e jess personagens_209: -436583856
+      day e jess personagens_40: -129349407
+      day e jess personagens_213: 445458141
+      day e jess personagens_62: -310929104
+      day e jess personagens_227: -401407562
+      day e jess personagens_73: -1518197140
+      day e jess personagens_156: 147398778
+      day e jess personagens_212: -659607529
+      day e jess personagens_182: -936720524
+      day e jess personagens_245: -2010302165
+      day e jess personagens_21: 732000146
+      day e jess personagens_29: 2022612311
+      day e jess personagens_201: -235328106
+      day e jess personagens_84: -476069249
+      day e jess personagens_116: -1195140286
+      day e jess personagens_148: 1400129177
+      day e jess personagens_142: -1718747653
+      day e jess personagens_18: 1389125153
+      day e jess personagens_27: -152018595
+      day e jess personagens_58: 1626220941
+      day e jess personagens_47: -64847127
+      day e jess personagens_237: -639540164
+      day e jess personagens_233: 677049418
+      day e jess personagens_3: -687866394
+      day e jess personagens_50: 1715851248
+      day e jess personagens_45: -1121568962
+      day e jess personagens_63: -962590228
+      day e jess personagens_99: 2064030985
+      day e jess personagens_102: -2129326001
+      day e jess personagens_48: -361193309
+      day e jess personagens_19: -2055212050
+      day e jess personagens_22: -630413501
+      day e jess personagens_54: 2068649628
+      day e jess personagens_77: 362813716
+      day e jess personagens_87: 1100100110
+      day e jess personagens_247: 1149100256
+      day e jess personagens_152: 1885056203
+      day e jess personagens_113: 1117350355
+      day e jess personagens_35: 1492971035
+      day e jess personagens_137: 1352786948
+      day e jess personagens_188: 300938609
+      day e jess personagens_163: -576263213
+      day e jess personagens_204: 1933458366
+      day e jess personagens_172: 1076014871
+      day e jess personagens_248: -297393975
+      day e jess personagens_38: -1603062785
+      day e jess personagens_17: -100900514
+      day e jess personagens_114: 1983287009
+      day e jess personagens_180: -87539612
+      day e jess personagens_165: -1593882954
+      day e jess personagens_238: 635929020
+      day e jess personagens_37: -708802903
+      day e jess personagens_64: 341141316
+      day e jess personagens_176: 1913245922
+      day e jess personagens_104: 1814021894
+      day e jess personagens_144: 312989172
+      day e jess personagens_226: -692526006
+      day e jess personagens_65: -1498672770
+      day e jess personagens_140: -922676021
+      day e jess personagens_166: -1733749224
+      day e jess personagens_124: 1952839170
+      day e jess personagens_199: -1517180482
+      day e jess personagens_4: 59958588
+      day e jess personagens_69: 1502072474
+      day e jess personagens_205: 405987880
+      day e jess personagens_208: 2076556774
+      day e jess personagens_126: -516622239
+      day e jess personagens_135: -1276713708
+      day e jess personagens_132: -916934436
+      day e jess personagens_42: -1424179306
+      day e jess personagens_86: 2107951375
+      day e jess personagens_79: -1258995153
+      day e jess personagens_13: 1434759086
+      day e jess personagens_249: -1629568142
+      day e jess personagens_41: -668781866
+      day e jess personagens_81: 887058035
+      day e jess personagens_202: 746368585
+      day e jess personagens_119: -1742196639
+      day e jess personagens_195: 1929523025
+      day e jess personagens_31: 1464960747
+      day e jess personagens_52: -1184584545
+      day e jess personagens_2: 1134007936
+      day e jess personagens_117: -325891836
+      day e jess personagens_57: 31785470
+      day e jess personagens_151: -864965667
+      day e jess personagens_78: 1629288947
+      day e jess personagens_218: -1774724395
+      day e jess personagens_186: 1577734065
+      day e jess personagens_211: 1288139786
+      day e jess personagens_71: 1425293049
+      day e jess personagens_215: -219584222
+      day e jess personagens_223: -873030507
+      day e jess personagens_20: 2070235918
+      day e jess personagens_110: -1725721287
+      day e jess personagens_106: 1084234136
+      day e jess personagens_171: -1171454394
+      day e jess personagens_168: -383943020
+      day e jess personagens_210: -84836351
+      day e jess personagens_232: -444614257
+      day e jess personagens_75: -1781652594
+      day e jess personagens_111: 2102922515
+      day e jess personagens_98: 585343848
+      day e jess personagens_12: -1845741324
+      day e jess personagens_33: -1986080246
+      day e jess personagens_157: -1787403648
+      day e jess personagens_239: -1964484031
+      day e jess personagens_147: -1600911379
+      day e jess personagens_160: -1575661370
+      day e jess personagens_225: -425338813
+      day e jess personagens_133: -942590030
+      day e jess personagens_0: -1759281312
+      day e jess personagens_159: -997452911
+      day e jess personagens_173: -825411612
+      day e jess personagens_123: 480075907
+      day e jess personagens_24: 901287541
+      day e jess personagens_161: 744743254
+      day e jess personagens_185: -205638627
+      day e jess personagens_154: -982329803
+      day e jess personagens_187: 1222379572
+      day e jess personagens_97: 1451351619
+      day e jess personagens_190: 492365955
+      day e jess personagens_60: 855933160
+      day e jess personagens_100: 1395786314
+      day e jess personagens_76: 1887193784
+      day e jess personagens_7: -320135187
+      day e jess personagens_36: -1801354151
+      day e jess personagens_175: -992897304
+      day e jess personagens_228: 1670625255
+      day e jess personagens_43: 2084820123
+      day e jess personagens_103: 97388549
+      day e jess personagens_198: -1733807625
+      day e jess personagens_217: 1585098554
+      day e jess personagens_74: 10389026
+      day e jess personagens_51: 673703688
+      day e jess personagens_112: 513294217
+      day e jess personagens_83: 2124903455
+      day e jess personagens_197: -539786023
+      day e jess personagens_16: -700299402
+      day e jess personagens_70: -574759224
+      day e jess personagens_155: -1510764641
+      day e jess personagens_191: 1510248002
+      day e jess personagens_158: -1466261320
+      day e jess personagens_192: -959204548
+      day e jess personagens_220: 754709752
+      day e jess personagens_206: -709337575
+      day e jess personagens_118: -768733985
+      day e jess personagens_107: 1298379308
+      day e jess personagens_136: -1757131524
+      day e jess personagens_25: -1313625178
+      day e jess personagens_5: 421322723
+      day e jess personagens_153: 1263279826
+      day e jess personagens_214: 515689243
+      day e jess personagens_164: -823219250
+      day e jess personagens_127: -1234336588
+      day e jess personagens_200: -724528906
+      day e jess personagens_96: 1467862650
+      day e jess personagens_221: -1570846555
+      day e jess personagens_234: -1077170957
+      day e jess personagens_1: -1338418524
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

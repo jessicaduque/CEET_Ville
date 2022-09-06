@@ -3479,8 +3479,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 5348d26e3ab5d594b85c34f5e1d86687, type: 3}
-  m_Color: {r: 0.66798156, g: 0.17265925, b: 0.9433962, a: 1}
+  m_Sprite: {fileID: -1986080246, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3498,8 +3498,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817047237}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35, y: -35.25, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 0.58, y: -35.25, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -3543,7 +3543,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3565,29 +3565,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   andarCima:
-  - {fileID: 21300000, guid: ea2bd3633591946408e00600f1356361, type: 3}
-  - {fileID: 21300000, guid: 7798b8de6a31b0445a6c3c5e4ecca953, type: 3}
-  - {fileID: 21300000, guid: 966aef939023e5d4792904be97792966, type: 3}
-  - {fileID: 21300000, guid: 88c01199d1d3e944e8157e594e030fab, type: 3}
-  - {fileID: 21300000, guid: 9f9a95efd20648d459d848691dedc298, type: 3}
+  - {fileID: 901287541, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -1313625178, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 1414146349, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -152018595, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   andarBaixo:
-  - {fileID: 21300000, guid: 5348d26e3ab5d594b85c34f5e1d86687, type: 3}
-  - {fileID: 21300000, guid: 0dd6acf074ec6044bb7dd427a4885f69, type: 3}
-  - {fileID: 21300000, guid: 41a733258acdff94d8dc376c594bc852, type: 3}
-  - {fileID: 21300000, guid: f5d2279137c84ef479c7859720a6dd84, type: 3}
-  - {fileID: 21300000, guid: fea8d0a4bea0ace4baf34c519b88a923, type: 3}
+  - {fileID: 1492971035, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -1801354151, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -708802903, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -1603062785, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   andarDireita:
-  - {fileID: 21300000, guid: cc2eb890b3be31e48927a0e709f0d1cc, type: 3}
-  - {fileID: 21300000, guid: 3819cb47c655e0c4da895cf91bf92799, type: 3}
-  - {fileID: 21300000, guid: e26345bdf36ed9d4b891771c9d89ff32, type: 3}
-  - {fileID: 21300000, guid: 8fbbab44539450a4baf81395edaa6dae, type: 3}
-  - {fileID: 21300000, guid: 57e92ff3e0ee95b4ab5c84ece20165a7, type: 3}
+  - {fileID: 1434759086, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -1195292640, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -989526255, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -700299402, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   andarEsquerda:
-  - {fileID: 21300000, guid: 8ee828b01bdfc614ca1e92bde763a8f4, type: 3}
-  - {fileID: 21300000, guid: f94ea5cfed34ba441b848d5f955e5121, type: 3}
-  - {fileID: 21300000, guid: 33488f67d0a7e3e41af809901a761581, type: 3}
-  - {fileID: 21300000, guid: 910afc81558a42f4f9b214aa9740637a, type: 3}
-  - {fileID: 21300000, guid: cd4c0056d0824634e80a5c9ed3554f2d, type: 3}
+  - {fileID: 1134007936, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -687866394, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 59958588, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 421322723, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   indiceAndar: 0
   contAndar: 0
   direcao: baixo
@@ -3595,21 +3591,13 @@ MonoBehaviour:
   indiceAtaque: 0
   contAtaque: 0
   atacarCima:
-  - {fileID: 21300000, guid: 98779a85bc9b8af4980fd703f7e291d5, type: 3}
-  - {fileID: 21300000, guid: cd1f69bdb8bfcd5478513eafcb78d22f, type: 3}
-  - {fileID: 21300000, guid: 27fc81ae3974188428c3c13ac8bf174e, type: 3}
+  - {fileID: 806494829, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   atacarBaixo:
-  - {fileID: 21300000, guid: a1b98e0328f84c04c86f3a7b3a1ba73f, type: 3}
-  - {fileID: 21300000, guid: 4e919532ad48eb64ca0cffdf06f55853, type: 3}
-  - {fileID: 21300000, guid: 3e21a6f602e38f04abc40b396bd3cbe2, type: 3}
+  - {fileID: 1318509762, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   atacarDireita:
-  - {fileID: 21300000, guid: a6777441bef02384ab5be610d34e095b, type: 3}
-  - {fileID: 21300000, guid: 185ec3ce28b29cb4f8e434878cf09476, type: 3}
-  - {fileID: 21300000, guid: 96a2bcf4fdfd1fd44b1bf2c46fba9faf, type: 3}
+  - {fileID: -1845741324, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   atacarEsquerda:
-  - {fileID: 21300000, guid: 002b8f0b3d24a6846b85f6365c676a3b, type: 3}
-  - {fileID: 21300000, guid: 8d644efc5b46422418a29e6ff9820011, type: 3}
-  - {fileID: 21300000, guid: 61a8c9229cb900345a2fa5f55454bfa1, type: 3}
+  - {fileID: -1338418524, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   indiceInimigos: 0
   inimigos:
   - {fileID: 1652335900}
@@ -9791,7 +9779,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9841,8 +9829,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 5348d26e3ab5d594b85c34f5e1d86687, type: 3}
-  m_Color: {r: 0.9433962, g: 0.39515838, b: 0.39515838, a: 1}
+  m_Sprite: {fileID: 362813716, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9860,8 +9848,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993859344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2800002, y: -35.25, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 1.76, y: -35.25, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -9880,29 +9868,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   andarCima:
-  - {fileID: 21300000, guid: ea2bd3633591946408e00600f1356361, type: 3}
-  - {fileID: 21300000, guid: 7798b8de6a31b0445a6c3c5e4ecca953, type: 3}
-  - {fileID: 21300000, guid: 966aef939023e5d4792904be97792966, type: 3}
-  - {fileID: 21300000, guid: 88c01199d1d3e944e8157e594e030fab, type: 3}
-  - {fileID: 21300000, guid: 9f9a95efd20648d459d848691dedc298, type: 3}
+  - {fileID: -1660343651, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 1502072474, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -574759224, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 1425293049, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   andarBaixo:
-  - {fileID: 21300000, guid: 5348d26e3ab5d594b85c34f5e1d86687, type: 3}
-  - {fileID: 21300000, guid: 0dd6acf074ec6044bb7dd427a4885f69, type: 3}
-  - {fileID: 21300000, guid: 41a733258acdff94d8dc376c594bc852, type: 3}
-  - {fileID: 21300000, guid: f5d2279137c84ef479c7859720a6dd84, type: 3}
-  - {fileID: 21300000, guid: fea8d0a4bea0ace4baf34c519b88a923, type: 3}
+  - {fileID: -1258995153, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -2105700437, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 887058035, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -1875868107, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   andarDireita:
-  - {fileID: 21300000, guid: cc2eb890b3be31e48927a0e709f0d1cc, type: 3}
-  - {fileID: 21300000, guid: 3819cb47c655e0c4da895cf91bf92799, type: 3}
-  - {fileID: 21300000, guid: e26345bdf36ed9d4b891771c9d89ff32, type: 3}
-  - {fileID: 21300000, guid: 8fbbab44539450a4baf81395edaa6dae, type: 3}
-  - {fileID: 21300000, guid: 57e92ff3e0ee95b4ab5c84ece20165a7, type: 3}
+  - {fileID: 31785470, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 1626220941, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 1423351003, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 855933160, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   andarEsquerda:
-  - {fileID: 21300000, guid: 8ee828b01bdfc614ca1e92bde763a8f4, type: 3}
-  - {fileID: 21300000, guid: f94ea5cfed34ba441b848d5f955e5121, type: 3}
-  - {fileID: 21300000, guid: 33488f67d0a7e3e41af809901a761581, type: 3}
-  - {fileID: 21300000, guid: 910afc81558a42f4f9b214aa9740637a, type: 3}
-  - {fileID: 21300000, guid: cd4c0056d0824634e80a5c9ed3554f2d, type: 3}
+  - {fileID: -215849674, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -64847127, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: -361193309, guid: 45873481d4fabe445b409720fc031e22, type: 3}
+  - {fileID: 83510836, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   indiceAndar: 0
   contAndar: 0
   direcao: baixo
@@ -9910,21 +9894,13 @@ MonoBehaviour:
   indiceAtaque: 0
   contAtaque: 0
   atacarCima:
-  - {fileID: 21300000, guid: 98779a85bc9b8af4980fd703f7e291d5, type: 3}
-  - {fileID: 21300000, guid: cd1f69bdb8bfcd5478513eafcb78d22f, type: 3}
-  - {fileID: 21300000, guid: 27fc81ae3974188428c3c13ac8bf174e, type: 3}
+  - {fileID: 108912233, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   atacarBaixo:
-  - {fileID: 21300000, guid: a1b98e0328f84c04c86f3a7b3a1ba73f, type: 3}
-  - {fileID: 21300000, guid: 4e919532ad48eb64ca0cffdf06f55853, type: 3}
-  - {fileID: 21300000, guid: 3e21a6f602e38f04abc40b396bd3cbe2, type: 3}
+  - {fileID: 1629288947, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   atacarDireita:
-  - {fileID: 21300000, guid: a6777441bef02384ab5be610d34e095b, type: 3}
-  - {fileID: 21300000, guid: 185ec3ce28b29cb4f8e434878cf09476, type: 3}
-  - {fileID: 21300000, guid: 96a2bcf4fdfd1fd44b1bf2c46fba9faf, type: 3}
+  - {fileID: 1636582486, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   atacarEsquerda:
-  - {fileID: 21300000, guid: 002b8f0b3d24a6846b85f6365c676a3b, type: 3}
-  - {fileID: 21300000, guid: 8d644efc5b46422418a29e6ff9820011, type: 3}
-  - {fileID: 21300000, guid: 61a8c9229cb900345a2fa5f55454bfa1, type: 3}
+  - {fileID: -1121568962, guid: 45873481d4fabe445b409720fc031e22, type: 3}
   indiceInimigos: 0
   inimigos:
   - {fileID: 1652335900}
